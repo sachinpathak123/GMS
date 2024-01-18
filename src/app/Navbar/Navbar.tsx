@@ -37,11 +37,11 @@ const Navbar = () => {
         <h1 className="text-5xl font-sans ml-2 ">
           <a
             className="link-underline link-underline-black"
-            href=""
+            href="https://gms-rcm.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
-            Logo
+           <img src="/logo1.png" alt="There was a image" className="w-24 h-16" /> 
           </a>
         </h1>
       </div>
