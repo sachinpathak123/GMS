@@ -6,7 +6,7 @@ const Homesection = () => {
     <>
     <div className='w-screen h-3/4 bg-berserk text-black'>
         <br />
-        <br /><br />
+        <br />
         <h1 className='text-center font-bold text-5xl'>
         Your health requirements are our  <br /> first focus
         </h1>

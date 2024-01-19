@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        '2xs': '.69rem', 
+        'xl':  '1.25rem',
+      },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
       },
@@ -27,6 +31,9 @@ const config: Config = {
       },
       borderRadius: {
         'lg': '2rem',
+      },
+      boxShadow: {
+        '3xl': '0px 0px 60px -3px rgba(0,0,0, 0.9)',
       }
 
     },
