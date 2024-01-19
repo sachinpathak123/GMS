@@ -15,7 +15,7 @@ const Home = () => {
       </div>
       </div>
       <div className='z-0'>
-      <img src="/target1.png" alt="Target Image" className='w-4/5 h-3/4 relative left-24' />
+      <img src="/target1.png" alt="Target Image" className='w-150 h-80 relative right-12' />
       </div>
       </div>
       

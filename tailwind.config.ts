@@ -14,12 +14,21 @@ const config: Config = {
       colors: {
         'custom-purple': '#6020BD',
         'light-pUrple':'#8000FF',
+        'berserk':'#F4E4FF',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      width: {
+        '96': '24rem',
+        '150': '40rem',
+      },
+      borderRadius: {
+        'lg': '2rem',
+      }
+
     },
   },
   plugins: [],
