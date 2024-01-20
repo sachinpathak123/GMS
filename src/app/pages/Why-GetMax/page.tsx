@@ -4,10 +4,13 @@ import Newstat from './Newstat'
 
 const page = () => {
   return (
+    <>
     <div>
-      <LP/>
+      
+      <LP />
       <Newstat/>
     </div>
+      </>
   )
 }
 
