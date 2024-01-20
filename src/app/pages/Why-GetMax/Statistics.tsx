@@ -2,8 +2,8 @@ import React from 'react'
 
 const Statistics = () => {
   return (
-    <div className="w-screen m-0 p-0 [background:#dbc4ed] h-screen overflow-hidden text-center text-17xl text-blueviolet font-sans">
-    <div className=" top-[323px] left-[260px] w-[1208px] h-[585px] flex flex-col items-center justify-start gap-[73px]">
+    <div className="w-screen m-0 p-0 [background:#dbc4ed] h-[1117px] overflow-hidden text-center text-17xl text-blueviolet font-manrope">
+    <div className="absolute top-[323px] left-[180px] w-[1208px] h-[585px] mt-[850px] flex flex-col items-center justify-start gap-[73px]">
       <div className="w-[1208px] h-64 flex flex-row items-center justify-start gap-[97px]">
         <div className="w-[338px] relative rounded-t-none rounded-b-3xs  box-border h-64 ">
           <div className=" top-[0px] left-[0px] rounded-t-none rounded-b-3xs bg-white box-border w-[338px] h-64 border-t-[5px] border-solid border-blueviolet" />
@@ -73,7 +73,7 @@ const Statistics = () => {
         </div>
       </div>
     </div>
-    <div className="absolute top-[66px] left-[675px] w-[377.4px] h-[174.5px] overflow-hidden flex flex-col items-center justify-end text-4xl text-black font-red-hat-display">
+    <div className="absolute top-[66px] mt-[800px] left-[600px] w-[377.4px] h-[174.5px] overflow-hidden flex flex-col items-center justify-end text-4xl text-black font-red-hat-display">
       <b className="w-[293px] relative tracking-[0.32em] leading-[70px] capitalize inline-block h-[67px] shrink-0">
         WHY CHOOSE US
       </b>
