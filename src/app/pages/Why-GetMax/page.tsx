@@ -7,7 +7,7 @@ const page = () => {
     <>
     <div>
       <LP />
-      <Statistics/>
+      <Newstat/>
     </div>
       </>
   )
