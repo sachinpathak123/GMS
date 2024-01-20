@@ -1,5 +1,5 @@
 import React from 'react'
-import LP from './LP'
+import LP from './LP/LP'
 
 const page = () => {
   return (
