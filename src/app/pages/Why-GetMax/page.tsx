@@ -5,8 +5,8 @@ import Statistics from './Statistics'
 const page = () => {
   return (
     <div>
-      <Statistics/>
       <LP />
+      <Statistics/>
     </div>
   )
 }
