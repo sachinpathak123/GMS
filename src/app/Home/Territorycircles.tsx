@@ -4,7 +4,9 @@ import Territory from './Territory'
 const Territorycircles = () => {
   return (
     <>
-       <h1 className='text-7xl font-extrabold text-custom-purple text-center font-sans from-slate-300 to-custom-purple '>OUR TERRITORY</h1> 
+       <br />
+       <h1 className='text-7xl font-extrabold text-custom-purple text-center font-sans from-slate-300 to-custom-purple md:text-center sm:text-center lg:text-center'>OUR TERRITORY</h1> 
+       <br />
        <br />
        <br />
     <div className='flex items-center justify-between mx-16'>
@@ -27,3 +29,4 @@ const Territorycircles = () => {
 }
 
 export default Territorycircles
+

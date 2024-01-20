@@ -10,22 +10,27 @@ const Navbar = () => {
     {
       id: 1,
       link: "Home",
+      link1:"#",
     },
     {
       id: 2,
       link: "RCM services",
+      link1:"#",
     },
     {
       id: 3,
       link: "Resources",
+      link1:"#",
     },
     {
       id: 4,
       link: "Specialization",
+      link1:"#",
     },
     {
       id: 5,
-      link: "Why GetMax?",
+      link: "Why-GetMax",
+      link1:"/pages/Why-GetMax",
     },
   ];
 
@@ -47,12 +52,12 @@ const Navbar = () => {
       </div>
 
       <ul className="hidden  md:flex">
-        {links.map(({ id, link }) => (
+        {links.map(({ id, link,link1 }) => (
           <li
             key={id}
             className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-800 hover:scale-105 hover:text-light-pUrple duration-300 link-underline"
           >
-            <Link href={link}>{link}</Link>
+            <Link href={link1}>{link}</Link>
           </li>
         ))}
       </ul>
