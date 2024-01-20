@@ -1,6 +1,6 @@
 import React from 'react'
 
-const page = () => {
+const LP = () => {
   return (
     <div className='bg-gm-purple h-screen w-screen flex items-end justify-end'>
         <img src="/fam.png" alt="familyimage" className='w-64 h-64 relative left-36 bottom-48 z-10' />
@@ -9,4 +9,4 @@ const page = () => {
   )
 }
 
-export default page
+export default LP
