@@ -4,10 +4,12 @@ import Statistics from './Statistics'
 
 const page = () => {
   return (
-    <div>
-      <Statistics />
+    <>
+    <div className='bg-white'>
       <LP />
+      <Statistics />
     </div>
+      </>
   )
 }
 

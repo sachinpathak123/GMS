@@ -2,13 +2,13 @@ import React from 'react'
 
 const Statistics = () => {
   return (
-    <div className="w-screen m-0 p-0 [background:#dbc4ed] h-[1117px] overflow-hidden text-center text-17xl text-blueviolet font-manrope">
-    <div className="absolute top-[323px] left-[260px] w-[1208px] h-[585px] flex flex-col items-center justify-start gap-[73px]">
+    <div className="w-screen m-0 p-0 [background:#dbc4ed] h-screen overflow-hidden text-center text-17xl text-blueviolet font-sans">
+    <div className=" top-[323px] left-[260px] w-[1208px] h-[585px] flex flex-col items-center justify-start gap-[73px]">
       <div className="w-[1208px] h-64 flex flex-row items-center justify-start gap-[97px]">
         <div className="w-[338px] relative rounded-t-none rounded-b-3xs  box-border h-64 ">
-          <div className="absolute top-[0px] left-[0px] rounded-t-none rounded-b-3xs bg-white box-border w-[338px] h-64 border-t-[5px] border-solid border-blueviolet" />
-          <div className="absolute top-[87px] left-[67px] w-[204.1px] h-[97.4px] overflow-hidden">
-            <b className="absolute top-[0.3px] left-[50px] tracking-[0.03em] leading-[40px] inline-block w-[138.8px] h-[42.8px] [transform:_rotate(-0.11deg)] [transform-origin:0_0]">
+          <div className=" top-[0px] left-[0px] rounded-t-none rounded-b-3xs bg-white box-border w-[338px] h-64 border-t-[5px] border-solid border-blueviolet" />
+          <div className=" top-[87px] left-[67px] w-[204.1px] h-[97.4px] overflow-hidden">
+            <b className=" top-[0.3px] left-[50px] tracking-[0.03em] leading-[40px] inline-block w-[138.8px] h-[42.8px] [transform:_rotate(-0.11deg)] [transform-origin:0_0]">
               95%
             </b>
             <b className="absolute w-[99.95%] top-[71.25%] left-[0%] text-5xl tracking-[0.03em] leading-[28px] inline-block text-center [transform:_rotate(-0.11deg)] [transform-origin:0_0]">{`Client Retention `}</b>
