@@ -19,6 +19,8 @@ const config: Config = {
         'custom-purple': '#6020BD',
         'light-pUrple':'#8000FF',
         'berserk':'#F4E4FF',
+        'leam-purple':'#8000FF',
+        'gm-purple':'rgba(185,167,255,0.45)',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

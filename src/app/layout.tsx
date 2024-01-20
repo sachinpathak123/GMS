@@ -1,5 +1,6 @@
 import './globals.css'
-
+import Division from './pages/Navbar/Division'
+import Navbar from './pages/Navbar/Navbar'
 
 export default function RootLayout({
   children,
@@ -8,7 +9,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body><Navbar />
+      <Division />
+      {children}</body>
     </html>
   )
 }
