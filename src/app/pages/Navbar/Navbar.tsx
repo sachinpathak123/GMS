@@ -10,7 +10,7 @@ const Navbar = () => {
     {
       id: 1,
       link: "Home",
-      link1:"#",
+      link1:"/",
     },
     {
       id: 2,
