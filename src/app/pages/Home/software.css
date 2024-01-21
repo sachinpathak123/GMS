@@ -1,0 +1,6 @@
+.software{
+    grid-template-columns: 136px 136px 136px 136px;
+    display: grid;
+    justify-content: center;
+    column-gap: 70px;
+}
