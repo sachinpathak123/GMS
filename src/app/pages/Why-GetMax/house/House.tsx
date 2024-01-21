@@ -18,33 +18,33 @@ function House() {
       </p>
       <div className="outer_circle">
       <div className="inner_circle">
-    <img src={'/024-clinic.png'} alt='Image' className="w-48 house"/>
+    <img src="D:/Getmax/GMS/public/024-clinic.png" alt='Image' className="w-48 house"/>
 </div>
 
       </div>
-      <div className="bg-slate-50 p-3 rounded-2xl bg-opacity-55 shadow-md absolute top-64 left-72 transparent">
+      <div className="bg-slate-50 p-3 rounded-2xl bg-opacity-55 shadow-md absolute top-80 left-80 transparent">
         <p className="font-bold w-36 text-center text-sm">Service Excellence</p>
       </div>
       <div className="flex flex-col items-center">
-        <div className="bg-slate-100 rounded-2xl p-2 w-56 bg-opacity-55 shadow-md absolute top-96 left-24 transparent">
+        <div className="bg-slate-100 rounded-2xl p-2 w-56 bg-opacity-55 shadow-md absolute bottom-64 left-56 transparent">
           <p className="font-bold text-sm">Resolve Challenges with a full range of Technical abilities</p>
         </div>
-        <div className="bg-slate-100 rounded-2xl p-3.5 w-56 bg-opacity-55 shadow-md absolute top-3/4 left-20 transparent">
+        <div className="bg-slate-100 rounded-2xl p-3.5 w-56 bg-opacity-55 shadow-md absolute top-3/4 left-60 transparent">
           <p className="font-bold text-sm">Prioritize our people and include all</p>
         </div>
-        <div className="bg-slate-100 rounded-2xl p-3.5 w-56 bg-opacity-55 shadow-md absolute bottom-2 left-40 transparent">
+        <div className="bg-slate-100 rounded-2xl p-3.5 w-56 bg-opacity-55 shadow-md absolute bottom-1 left-72 transparent">
           <p className="font-bold text-sm">Optimization and Continuos improvement</p>
         </div>
-        <div className="bg-slate-100 rounded-2xl p-3.5 w-56 bg-opacity-55 shadow-md absolute right-56 top-64 transparent">
+        <div className="bg-slate-100 rounded-2xl p-3.5 w-56 bg-opacity-55 shadow-md absolute right-64 top-80 transparent">
           <p className="font-bold text-sm text-center">Value Driven work culture</p>
         </div>
-        <div className="bg-slate-100 rounded-2xl p-3.5 w-56 bg-opacity-55 shadow-md absolute right-24 top-96 transparent">
+        <div className="bg-slate-100 rounded-2xl p-3.5 w-56 bg-opacity-55 shadow-md absolute right-56 bottom-64 transparent">
           <p className="font-bold text-sm text-center">99.9% Transparency and Productivity</p>
         </div>
-        <div className="bg-slate-100 rounded-2xl p-3.5 w-56 bg-opacity-55 shadow-md absolute right-24 bottom-36 transparent">
+        <div className="bg-slate-100 rounded-2xl p-3.5 w-56 bg-opacity-55 shadow-md absolute right-60 bottom-36 transparent">
           <p className="font-bold text-sm text-center">Variety of Services</p>
         </div>
-        <div className="bg-slate-100 rounded-2xl p-3.5 w-56 bg-opacity-55 shadow-md absolute right-40 bottom-2 transparent">
+        <div className="bg-slate-100 rounded-2xl p-3.5 w-56 bg-opacity-55 shadow-md absolute right-80 bottom-1 transparent">
           <p className="font-bold text-sm text-center">99.9% Efficiency and Accuracy</p>
         </div>
       </div>
