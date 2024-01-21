@@ -19,6 +19,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
+        "font-awesome-5-free": "'Font Awesome 5 Free'",
       },
       colors: {
         'custom-purple': '#6020BD',
@@ -29,6 +30,8 @@ const config: Config = {
         'gmd-purple':'rgba(185,167,255,0.93)',
         blueviolet: "#8d17e9",
         thistle: "rgba(236, 211, 255, 0.93)",
+        gray: "#040404",
+        "lightskyblue": "rgba(154, 190, 254, 0.5)"
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
