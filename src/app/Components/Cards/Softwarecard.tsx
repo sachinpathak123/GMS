@@ -20,3 +20,4 @@ const Softwarecard: React.FC<SoftwarecardProps> = ({lnk}) => {
 }
 
 export default Softwarecard
+

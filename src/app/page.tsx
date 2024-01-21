@@ -9,6 +9,7 @@ import Territorycircles from './pages/Home/Territorycircles'
 import Softwarecard from './Components/Cards/Softwarecard'
 import './pages/Home/software.css'
 import Oursoftware from './pages/Home/Oursoftware'
+import Contact from './pages/Home/Contact'
     
 
 const page = () => {
@@ -22,6 +23,7 @@ const page = () => {
           <Territorycircles />
         </div>
         <Oursoftware/>
+        <Contact />
     </div>
   )
 }
