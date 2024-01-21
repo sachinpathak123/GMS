@@ -18,7 +18,7 @@ function House() {
       </p>
       <div className="outer_circle">
       <div className="inner_circle">
-    <img src={process.env.PUBLIC_URL + '/024-clinic.png'} alt='Image' className="w-48 house"/>
+    <img src={'/024-clinic.png'} alt='Image' className="w-48 house"/>
 </div>
 
       </div>
