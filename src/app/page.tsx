@@ -1,11 +1,11 @@
 "use client"
 import React from 'react'
-import Home from './Home/Home'
+import Home from './pages/Home/Home'
 import Navbar from './pages/Navbar/Navbar'
 import Division from './pages/Navbar/Division'
 import Homesection from './Components/Homesection'
-import Territory from './Home/Territory'
-import Territorycircles from './Home/Territorycircles'
+import Territory from './pages/Home/Territory'
+import Territorycircles from './pages/Home/Territorycircles'
 const page = () => {
   return (
     <div>

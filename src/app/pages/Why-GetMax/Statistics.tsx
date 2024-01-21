@@ -3,12 +3,12 @@ import React from 'react'
 const Statistics = () => {
   return (
     <div className="w-screen bg-gmd-purple h-screen overflow-hidden text-center text-17xl text-blueviolet font-sans ">
-    <div className="  w-96 h-48 flex flex-col items-center text-4xl text-black font-red-hat-display">
-      <b className="w-64 relative tracking-widest m-0 leading-relaxed capitalize h-12">
+    <div className=" w-96 h-48 flex flex-col items-center text-4xl text-black font-red-hat-display">
+      <b className="w-64 relative tracking-widest m-0 leading-relaxed capitalize h-12 text-center">
         WHY CHOOSE US
       </b>
-      <div className="w-96 h-48 justify-center py-[0.23239898681640625px] pr-0 pl-[0.04388456046581268px] box-border gap-8 mt-[-5px] text-29xl font-source-sans-pro">
-        <div className="w-96 [background:radial-gradient(50%_50%_at_50%_50%,_#632ed3,_rgba(66,_133,_244,_0))] h-2.5" />
+      <div className="w-96 h-48 py-[0.23239898681640625px] pr-0 pl-[0.04388456046581268px] box-border gap-8 mt-[-5px] text-29xl font-source-sans-pro">
+        <div className="w-96 [background:radial-gradient(50%_50%_at_50%_50%,_#632ed3,_rgba(66,_133,_244,_0))] h-2.5 pr-2" />
         <b className="w-[377.3px] relative tracking-[0.04em] m-5 capitalize inline-block h-[71.2px] shrink-0 [transform:_rotate(0.04deg)]">
           <span>OUR</span>
           <span className="text-blueviolet"> STATISTICS</span>

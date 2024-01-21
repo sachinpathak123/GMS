@@ -13,15 +13,12 @@ const config: Config = {
         'xl':  '1.25rem',
         "29xl": "48px",
         "4xl": "23px",
-        "5xl": "24px",
+        "5Xl": "24px",
         "17xl": "36px",
         inherit: "inherit",
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
-        "source-sans-pro": "'Source Sans Pro'",
-        "red-hat-display": "'Red Hat Display'",
-        manrope: "Manrope",
       },
       colors: {
         'custom-purple': '#6020BD',
