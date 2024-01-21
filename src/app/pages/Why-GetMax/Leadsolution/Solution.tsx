@@ -7,19 +7,19 @@ import Featurelist from './Featurelist'
 
 const Solution = () => {
   return (
-    <div className='flex flex-row justify-items-center w-screen px-6 pt-36'>
+    <div className='flex flex-row justify-items-center w-screen pr-10 pt-40 pl-6 py-52'>
         <div className='    flex-col justify-items-start mx-4 text-black font-red-hat-display pt-7'>
-            <div className=' w-1/2 text-black font-red-hat-display text-5xl font-thin'>
-                <p>why GETMAX SOLUTIONS</p>
+            <div className=' w-3/4 text-black font-red-hat-display text-[20px] font-thin'>
+                <p>Why GETMAX SOLUTIONS</p>
             </div>
-            <div className='ml-[-300px]  '>
-               <p><span className='text-17xl text-purple-700 font-bold font-red-hat-display '>THE MOST LEADING</span> <br/>
-                <span className='text-black text-[30px] font-light font-source-sans-pro ml-[-100px]'>SOLUTION FOR YOU</span>
+            <div className='ml-[-5px]  '>
+               <p><span className='text-[40px] text-purple-700 font-bold font-red-hat-display '>THE MOST LEADING</span> <br/>
+                <span className='text-black text-[25px] font-semibold font-source-sans-pro ml-[-0px]'>SOLUTION FOR YOU</span>
                  </p>
             </div>
             <div className=' flex flex-row mt-3'>
-                <hr className='rotate-90 w-[70px] h-0.5 mt-10 ml-[-5px] bg-purple-600 text-transparent mx-[-10px]'></hr>
-                <p className='font-extralight text-left w-[80%] '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium architecto enim, vitae fuga adipisci nisi illo ratione sint harum molestiae ex, tempora eos in officiis debitis accusamus at, reiciendis error?</p>
+                <hr className='rotate-90 w-[55px] h-0.5 mt-[30px] ml-[-30px] bg-purple-600 text-transparent mx-[-10px]'></hr>
+                <p className='font-extralight text-left w-[80%] text-sm '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium architecto enim, vitae fuga adipisci nisi illo ratione sint harum molestiae ex, tempora eos in officiis debitis accusamus at, reiciendis error?</p>
             </div>
             <div className='flex flex-row mt-44 ml-9 w-full'>
                 <div className='flex flex-col pr-8'>

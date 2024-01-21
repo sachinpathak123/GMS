@@ -12,7 +12,7 @@ const Pinkcard = (props : any) => {
           <div className="w-[140px] relative rounded-3xl h-[230px] mt-[-230px]" />
         </div>
         <div className="relative w-[120px] rounded-3xl h-[230px]  flex flex-col items-center justify-end py-[1.2586517333984375px] px-2 box-border  ml-[-120px]">
-          <div className="text-left font-thin w-[110px] leading-[17.49px] text inline-block h-[120px] shrink-0 mr-px"> 
+          <div className="text-left font-thin w-[110px] leading-[17.49px] inline-block h-[120px] shrink-0 mr-px text-xs text-opacity-50"> 
           {props.data}
           </div>
           <div className='relative object-top inline-block rounded-lg p-2'>
