@@ -3,7 +3,7 @@ import './Form.css'
 
 const Form = () => {
   return (
-    <div className='bg-white flex items-center justify-center'>
+    <div className='bg-custom-purple flex items-center justify-center'>
     <div className="login-box">
     <h2>Login</h2>
     <form>
