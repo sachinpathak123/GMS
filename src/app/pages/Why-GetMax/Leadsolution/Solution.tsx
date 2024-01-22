@@ -21,8 +21,8 @@ const Solution = () => {
                 <hr className='rotate-90 w-[55px] h-0.5 mt-[30px] ml-[-30px] bg-purple-600 text-transparent mx-[-10px]'></hr>
                 <p className='font-extralight text-left w-[80%] text-sm '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium architecto enim, vitae fuga adipisci nisi illo ratione sint harum molestiae ex, tempora eos in officiis debitis accusamus at, reiciendis error?</p>
             </div>
-            <div className='flex flex-row mt-44 ml-9 w-full'>
-                <div className='flex flex-col pr-8'>
+            <div className='flex flex-row mt-44 ml-1 w-full'>
+                <div className='flex flex-col pr-20'>
                     
                     <Featurelist data="24/7 Call Services Available"/>
                     <Featurelist data="Great Skilled Consultant"/>
@@ -36,8 +36,8 @@ const Solution = () => {
                 <Featurelist data="Services we provide"/>
                 </div>
             </div>
-            <div className='ml-[-420px]  mt-10 '>
-                <button className=' w-1/5 bg-purple-700 text-white rounded-lg h-10 capitalize font-thin hover:bg-purple-800'>let’s work together</button>
+            <div className='ml-[-4px]  mt-12 '>
+                <button className=' w-1/3 bg-purple-700 text-white rounded-md h-10 capitalize font-thin hover:bg-purple-800'>let’s work together</button>
             </div>
         </div>
         <div className='flex flex-col p-3'>
