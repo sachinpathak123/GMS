@@ -1,4 +1,4 @@
-
+  
 .login-box {
     top: 50%;
     left: 100%;
@@ -48,7 +48,7 @@
   .login-box .user-box input:valid ~ label {
     top: -20px;
     left: 0;
-    color: #6020BD;
+    color: #F4E4FF;
     font-size: 12px;
   }
   

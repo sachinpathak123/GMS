@@ -22,8 +22,8 @@ const page = () => {
         <div className="container mb-36">
           <Territorycircles />
         </div>
-        <Oursoftware/>
         <Contact />
+        <Oursoftware/>
     </div>
   )
 }
