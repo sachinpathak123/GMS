@@ -2,6 +2,7 @@ import React from 'react'
 import LP from './LP/LP'
 import Newstat from './Newstat'
 import House from './house/House'
+import Solution from './Leadsolution/Solution'
 
 const page = () => {
   return (
@@ -9,8 +10,10 @@ const page = () => {
     <div>
       
       <LP />
-      <Newstat/>
       <House />
+      <Solution/>
+      <Newstat/>
+      
     </div>
       </>
   )
