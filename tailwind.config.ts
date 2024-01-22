@@ -18,6 +18,7 @@ const config: Config = {
         inherit: "inherit",
       },
       fontFamily: {
+        "source-sans-pro": "'Source Sans Pro'",
         sans: ['Poppins', 'sans-serif'],
         "font-awesome-5-free": "'Font Awesome 5 Free'",
       },
