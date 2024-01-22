@@ -1,0 +1,292 @@
+.software-section-container {
+    display:flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: 100vh;
+    padding: 0px;
+    justify-content: center;
+  
+    }
+    .soft-col{
+      display:flex;
+      flex-direction: column;
+      margin:0 20px;
+      align-items: center;
+     
+    }
+    .soft-colHeader{
+      text-align: center;
+      z-index:2;
+      width:270px;
+      padding:10px;
+    
+    }
+  
+  
+    
+    .marquee-item {
+      margin-bottom: 10px;
+      padding: 5px;
+      display: block;
+     
+    }
+    .mark{
+      height:100vh;
+      
+      position:relative;
+      z-index:1;
+      margin:0;
+     
+    }
+    .marq1{
+      position: relative;
+      width:250px;
+      margin-left: -36vw;
+      
+      
+    }
+  
+    
+   /*new css header*/
+  
+   .soft-head1{
+    position:relative;
+    text-align:center;
+    font-size: 6vw;
+    flex-direction: row;
+    font-style: bold;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    background: linear-gradient(90deg, #6020BD 0%, #A465FF 92.63%);
+    -webkit-background-softp: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .soft-header{
+  
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height:50vh;
+    width:100%;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  
+  }
+  
+  .soft-head3{
+    color: var(--gray-700, #42526B);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29.783px;
+  }
+  #soft-maincontainer{
+    background-color: #FAF9F6;
+    margin-top: 100px;
+    height:120vw;
+  }
+  
+  .soft-para{
+    max-width:80vw;
+    color:#42526B;
+    padding-bottom: 4vw;
+  }
+  .soft-para1{
+    font-size: 1.3vw;
+    color: var(--gray-700, #42526B);
+  text-align: center;
+  font-family: Inter;
+  font-size:  20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 60px;
+  
+  }
+  .cl-cont-mob{
+    display: none;
+  }
+  .soft-cont-mob{
+   display: none;
+  }
+  @media screen and (max-width:700px) {
+    .software-section-container{
+      display: none;
+    }
+    .soft-header {
+      height: 70vw;
+    }
+    .soft-head1{
+      font-size: 12vw;
+      line-height: 12vw;
+      margin-bottom: 4vw;
+    }
+    .soft-para{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    .soft-para1{
+      font-size: 4vw;
+      width: 88vw;
+      text-align: center;
+      
+    }.cl-cont-mob{
+      display:flex;
+      flex-direction:column;
+      overflow: hidden;
+      height: 120vh;
+      padding: 0px;
+      gap:10vw;
+        
+    }
+    .marquee-item {
+      margin-bottom: 0px;
+      margin-right: 4vw;
+      padding: 5px;
+      display: block;
+     
+    }
+  
+  
+  
+  
+  .soft-cont-mob{
+    display: block;
+    height: 320vw;
+  }
+  
+  .mark-mob{
+    height:100vh;
+    position:relative;
+    z-index:1;
+    margin:0;
+    
+  
+  }
+  
+  .marq-mob{
+    position: relative;
+    height:45vw;
+    width: 100vw;
+    
+  
+  }
+  
+  .soft-row{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  
+  .soft-row-one{
+    margin-top: -80vw;
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  }
+  @media screen and (max-width:1050px ) and (min-width:700px) {
+    
+    .soft-para1{
+      
+      color: var(--gray-700, #42526B);
+    text-align: center;
+    font-family: Inter;
+    font-size:  25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 60px;
+    
+    }
+    .software-section-container{
+      display: none;
+    }
+    .soft-header {
+      height: 70vw;
+    }
+    .soft-head1{
+      font-size: 12vw;
+      line-height: 12vw;
+      margin-bottom: 4vw;
+    }
+    .soft-para{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    .soft-para1{
+   
+      width: 88vw;
+      text-align: center;
+      
+    }.cl-cont-mob{
+      display:flex;
+      flex-direction:column;
+      overflow: hidden;
+      height: 120vh;
+      padding: 0px;
+      gap:10vw;
+        
+    }
+    .marquee-item {
+      margin-bottom: 0px;
+      margin-right: 4vw;
+      padding: 5px;
+      display: block;
+     
+    }
+  
+  
+  
+  .soft-cont-mob{
+    display: block;
+    height: 170vh;
+    
+  }
+  
+  .mark-mob{
+    height:100vw;
+    position:relative;
+    z-index:1;
+    margin:0;
+    
+  
+  }
+  
+  .marq-mob{
+    position: relative;
+    height:45vw;
+    width: 100vw;
+    
+  
+  }
+  
+  .soft-row{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  
+  .soft-row-one{
+    margin-top: -30vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  
+  }
