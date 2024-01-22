@@ -8,25 +8,25 @@ import Marquee from 'react-fast-marquee';
 
 //Importing images
 
-import software1 from './Softwareimages/software1.jpg';
-import software2 from './Softwareimages/software2.jpg';
-import software3 from './Softwareimages/software3.jpg';
-import software4 from './Softwareimages/software4.jpg';
-import software5 from './Softwareimages/software5.jpg';
-import software6 from './Softwareimages/software6.jpg';
-import software7 from './Softwareimages/software7.jpg';
-import software8 from './Softwareimages/software8.jpg';
-import software9 from './Softwareimages/software9.jpg';
-import software10 from './Softwareimages/software10.jpg';
-import software11 from './Softwareimages/software11.jpg';
-import software12 from './Softwareimages/software12.jpg';
-import software13 from './Softwareimages/software13.jpg';
-import software14 from './Softwareimages/software14.jpg';
-import software15 from './Softwareimages/software15.jpg';
-import software16 from './Softwareimages/software16.jpg';
-import software17 from './Softwareimages/software17.jpg';
-import software18 from './Softwareimages/software18.jpg';
-import software19 from './Softwareimages/software19.jpg';
+import advancemd from './Softwareimages/advancemd.jpg';
+import allscripts from './Softwareimages/allscripts.jpg';
+import athena from './Softwareimages/athena.jpg';
+import brightree from './Softwareimages/brightree.jpg';
+import cerner from './Softwareimages/cerner.jpg';
+import emds from './Softwareimages/emds.jpg';
+import epic from './Softwareimages/epic.jpg';
+import fficelly from './Softwareimages/fficelly.jpg';
+import gehealthcare from './Softwareimages/gehealthcare.jpg';
+import greenway from './Softwareimages/greenway.jpg';
+import iclaim from './Softwareimages/iclaim.jpg';
+import kareo from './Softwareimages/kareo.jpg';
+import medisoft from './Softwareimages/medisoft.jpg';
+import meditouch from './Softwareimages/meditouch.jpg';
+import nextgen from './Softwareimages/nextgen.jpg';
+import practicesuite from './Softwareimages/practicesuite.jpg';
+import prognocis from './Softwareimages/prognocis.jpg';
+import sonosoft from './Softwareimages/sonosoft.jpg';
+import zirmed from './Softwareimages/zirmed.jpg';
 
 
 const Carousel = () => {
@@ -46,19 +46,19 @@ const Carousel = () => {
      {/* use this div for changing the postion of the marquee column like margin and stuff  copy it and change the margin to setup the next marquee*/}
         <Marquee direction='up' behaviour = "scroll"  className='mark' >{/* use it to adjust height */}
                   <div   className="marquee-item">
-                  <Softcard logo = {software1}   />
+                  <Softcard logo = {advancemd}   />
                   </div>
                   <div  className="marquee-item">
-                  <Softcard logo = {software2}  />
+                  <Softcard logo = {allscripts}  />
                   </div>
                    <div  className="marquee-item">
-                  <Softcard logo = {software3}  />
+                  <Softcard logo = {athena}  />
                   </div>
                   <div   className="marquee-item">
-                  <Softcard logo = {software4} />
+                  <Softcard logo = {brightree} />
                   </div>
                   <div   className="marquee-item">
-                  <Softcard logo = {software5}  />
+                  <Softcard logo = {cerner}  />
                   </div>
 
         
@@ -75,16 +75,16 @@ const Carousel = () => {
 <Marquee direction='down' behaviour = "scroll"  className='mark'>{/* use it to adjust height */}
 
           <div   className="marquee-item">
-          <Softcard logo = {software6}  />
+          <Softcard logo = {emds}  />
           </div>
           <div  className="marquee-item">
-          <Softcard logo = {software7}  />
+          <Softcard logo = {epic}  />
           </div>
            <div  className="marquee-item">
-          <Softcard logo = {software8}  />
+          <Softcard logo = {fficelly}  />
           </div>
           <div   className="marquee-item">
-          <Softcard logo = {software9}  />
+          <Softcard logo = {gehealthcare}  />
           </div>
        
 
@@ -102,19 +102,19 @@ const Carousel = () => {
 <Marquee direction='up' behaviour = "scroll"  className='mark'>{/* use it to adjust height */}
 
           <div   className="marquee-item">
-          <Softcard logo = {software10}  />
+          <Softcard logo = {greenway}  />
           </div>
           <div  className="marquee-item">
-          <Softcard logo = {software11}  />
+          <Softcard logo = {iclaim}  />
           </div>
            <div  className="marquee-item">
-          <Softcard logo = {software12} />
+          <Softcard logo = {kareo} />
           </div>
           <div   className="marquee-item">
-          <Softcard logo = {software13}  />
+          <Softcard logo = {medisoft}  />
           </div>
           <div   className="marquee-item">
-          <Softcard logo = {software14}  />
+          <Softcard logo = {meditouch}  />
           </div>
           
 
@@ -132,19 +132,19 @@ const Carousel = () => {
 <Marquee direction='down' behaviour = "scroll"  className='mark'>{/* use it to adjust height */}
 
           <div   className="marquee-item">
-          <Softcard logo = {software15}  />
+          <Softcard logo = {nextgen}  />
           </div>
           <div  className="marquee-item">
-          <Softcard logo = {software16}  />
+          <Softcard logo = {practicesuite}  />
           </div>
            <div  className="marquee-item">
-          <Softcard logo = {software17}/>
+          <Softcard logo = {prognocis}/>
           </div>
           <div   className="marquee-item">
-          <Softcard logo = {software18}  />
+          <Softcard logo = {sonosoft}  />
           </div>
           <div   className="marquee-item">
-          <Softcard logo = {software19}  />
+          <Softcard logo = {zirmed}  />
           </div>
          
 
@@ -165,19 +165,19 @@ const Carousel = () => {
       <div className='marq-mob' >
       <Marquee direction='right' behaviour = "scroll"  className='mark-mob' >{/* use it to adjust height */}
       <div   className="marquee-item">
-                  <Softcard logo = {software1}   />
+                  <Softcard logo = {advancemd}   />
                   </div>
                   <div  className="marquee-item">
-                  <Softcard logo = {software2}  />
+                  <Softcard logo = {allscripts}  />
                   </div>
                    <div  className="marquee-item">
-                  <Softcard logo = {software3}  />
+                  <Softcard logo = {athena}  />
                   </div>
                   <div   className="marquee-item">
-                  <Softcard logo = {software4} />
+                  <Softcard logo = {brightree} />
                   </div>
                   <div   className="marquee-item">
-                  <Softcard logo = {software5}  />
+                  <Softcard logo = {cerner}  />
                   </div>
     
                 </Marquee>
@@ -190,16 +190,16 @@ const Carousel = () => {
     
 
     <div   className="marquee-item">
-          <Softcard logo = {software6}  />
+          <Softcard logo = {emds}  />
           </div>
           <div  className="marquee-item">
-          <Softcard logo = {software7}  />
+          <Softcard logo = {epic}  />
           </div>
            <div  className="marquee-item">
-          <Softcard logo = {software8}  />
+          <Softcard logo = {fficelly}  />
           </div>
           <div   className="marquee-item">
-          <Softcard logo = {software9}  />
+          <Softcard logo = {gehealthcare}  />
           </div>
 
 
@@ -211,19 +211,19 @@ const Carousel = () => {
     <Marquee direction='right' behaviour = "scroll"  className='mark-mob' >{/* use it to adjust height */}
                   
           <div   className="marquee-item">
-          <Softcard logo = {software10}  />
+          <Softcard logo = {greenway}  />
           </div>
           <div  className="marquee-item">
-          <Softcard logo = {software11}  />
+          <Softcard logo = {iclaim}  />
           </div>
            <div  className="marquee-item">
-          <Softcard logo = {software12} />
+          <Softcard logo = {kareo} />
           </div>
           <div   className="marquee-item">
-          <Softcard logo = {software13}  />
+          <Softcard logo = {medisoft}  />
           </div>
           <div   className="marquee-item">
-          <Softcard logo = {software14}  />
+          <Softcard logo = {meditouch}  />
           </div>
 
         
@@ -234,19 +234,19 @@ const Carousel = () => {
     <Marquee direction='left' behaviour = "scroll"  className='mark-mob' >{/* use it to adjust height */}
     
           <div   className="marquee-item">
-          <Softcard logo = {software15}  />
+          <Softcard logo = {nextgen}  />
           </div>
           <div  className="marquee-item">
-          <Softcard logo = {software16}  />
+          <Softcard logo = {practicesuite}  />
           </div>
            <div  className="marquee-item">
-          <Softcard logo = {software17}/>
+          <Softcard logo = {prognocis}/>
           </div>
           <div   className="marquee-item">
-          <Softcard logo = {software18}  />
+          <Softcard logo = {sonosoft}  />
           </div>
           <div   className="marquee-item">
-          <Softcard logo = {software19}  />
+          <Softcard logo = {zirmed}  />
           </div>
         
               </Marquee>
