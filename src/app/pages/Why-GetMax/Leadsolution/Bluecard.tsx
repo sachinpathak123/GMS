@@ -16,7 +16,7 @@ const Bluecard = (props : any) => {
           {props.data}
           </div>
           <div className='relative object-top inline-block rounded-lg p-2'>
-          <button className='ml-14 justify-items-center  bg-black hover:bg-purple-900 w-[35px] h-[25px] rounded-lg'><img className='mx-3' src="/arrow.svg" alt="" /></button>
+          <button className='ml-14 justify-items-center  bg-black hover:bg-purple-900 w-[35px] h-[25px] rounded-xl'><img className='mx-3' src="/arrow.svg" alt="" /></button>
         </div>
         </div>
       </div>

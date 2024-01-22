@@ -37,7 +37,7 @@ const Solution = () => {
                 </div>
             </div>
             <div className='ml-[-4px]  mt-12 '>
-                <button className=' w-1/3 bg-purple-700 text-white rounded-md h-10 capitalize font-thin hover:bg-purple-800'>let’s work together</button>
+                <button className=' px-6 bg-purple-700 text-white rounded-md h-10 capitalize font-thin hover:bg-custom-purple'>let’s work together</button>
             </div>
         </div>
         <div className='flex flex-col p-3'>
