@@ -8,7 +8,7 @@ import Marquee from 'react-fast-marquee';
 
 //Importing images
 
-import software1 from './Softwareimages/software1.jpg';
+import software1 from '../public/software1.jpg';
 import software2 from './Softwareimages/software2.jpg';
 import software3 from './Softwareimages/software3.jpg';
 import software4 from './Softwareimages/software4.jpg';

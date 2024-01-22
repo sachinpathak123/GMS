@@ -19,8 +19,8 @@ const page = () => {
         <div className="container mb-36">
           <Territorycircles />
         </div>
-        <Software/>
         <Contact />
+        <Software/>
         {/* <Oursoftware/> */}
     </div>
   )
