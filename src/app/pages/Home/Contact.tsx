@@ -9,7 +9,7 @@ const Contact = () => {
         opacity: cLick ? 1 : 0,
         from: { opacity: cLick ? 0 : 1 },
         onClick: () => {
-          setcLick((prev) => !prev);
+          setcLick((prev) => (!prev));
         },
         config: { duration: 200 },
     })

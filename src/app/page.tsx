@@ -16,9 +16,7 @@ const page = () => {
         <Division />
         <Home />
         <Homesection />
-        <div className="container mb-36">
           <Territorycircles />
-        </div>
         <Software/>
         <Contact />
         {/* <Oursoftware/> */}

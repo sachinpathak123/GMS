@@ -28,11 +28,13 @@ const config: Config = {
         'berserk':'#F4E4FF',
         'leam-purple':'#8000FF',
         'gm-purple':'rgba(185,167,255,0.65)',
+        'gmm-purple':'rgba(185,167,255,0.47)',
         'gmd-purple':'rgba(185,167,255,0.93)',
         blueviolet: "#8d17e9",
         thistle: "rgba(236, 211, 255, 0.93)",
         gray: "#040404",
-        "lightskyblue": "rgba(154, 190, 254, 0.5)"
+        "lightskyblue": "rgba(154, 190, 254, 0.5)",
+        "lp-purple":'#E0D8FF',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

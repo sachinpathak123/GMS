@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className="soft-header bg-berserk" id="soft-mainHeader">
+    <div className="soft-header bg-lp-purple" id="soft-mainHeader">
    
       <p className="soft-head1 font-extrabold">Our Softwares</p>
 
