@@ -1,18 +1,9 @@
 "use client"
 import React from 'react'
 import { url } from 'inspector'
-<<<<<<< HEAD
-import { animated, useSpring } from 'react-spring'
-import { start } from 'repl'
-=======
-import {motion} from 'framer-motion'
 
->>>>>>> caa9c81fce002f2fdd6e93d86ff54b4a50146815
+
 const GMheading = () => {
-  const { scale } = useSpring({
-    scale: 1,
-  });
-
   return (
     <div className=''>
       <div>
@@ -27,34 +18,16 @@ const GMheading = () => {
       </div>
      <br /><br />
       <div className='grid grid-cols-4 place-content-center mx-24 px-24'>
-<<<<<<< HEAD
-        <animated.div id="first" className='py-24 px-0 border border-1 rounded-xl text-center' style={{
-=======
-        <motion.div id="first" className='py-24 px-0 border border-1 rounded-xl text-center' style={{
->>>>>>> caa9c81fce002f2fdd6e93d86ff54b4a50146815
+        <div id="first" className='py-24 px-0 border border-1 rounded-xl text-center' style={{
           backgroundImage:'url("/first.png")',
           backgroundSize:'cover',
           width:'85%',
           height:'110%',
           }}
-<<<<<<< HEAD
-          onMouseEnter={() => {
-            // Increase scale on hover
-            scale.start({ scale: 1.1 });
-          }}
-          onMouseLeave={() => {
-            // Return to original scale when not hovering
-            scale.start({ scale: 1 });
-          }}
+        
           >
         <h2 className='text-center text-white'>STEP ONE</h2>
-        </animated.div>
-=======
-       whileHover={{ scale: 1.1 }}
-          >
-        <h2 className='text-center text-white'>STEP ONE</h2>
-        </motion.div>
->>>>>>> caa9c81fce002f2fdd6e93d86ff54b4a50146815
+        </div>
         <div id="second" className='py-24 px-0 border border-1 rounded-xl' style={{
           backgroundImage:'url("/first.png")',
           backgroundSize:'cover',
@@ -86,4 +59,4 @@ const GMheading = () => {
   )
 }
 
-export default GMheading
+export default GMheading
