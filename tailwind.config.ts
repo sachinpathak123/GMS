@@ -35,6 +35,7 @@ const config: Config = {
         gray: "#040404",
         "lightskyblue": "rgba(154, 190, 254, 0.5)",
         "lp-purple":'#E0D8FF',
+        "light-slate":'rgba(255,255,255,0.2)',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
