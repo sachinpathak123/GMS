@@ -7,6 +7,7 @@ import Homesection from './Components/Homesection'
 import Territorycircles from './pages/Home/Territorycircles'
 import Software from './pages/Home/Oursoftwares/Software'
 import Contact from './pages/Home/Contact'
+import Final from './pages/Home/Final'
     
 
 const page = () => {
@@ -20,6 +21,7 @@ const page = () => {
         <Software/>
         <Contact />
         {/* <Oursoftware/> */}
+         
     </div>
   )
 }
