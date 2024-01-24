@@ -1,5 +1,4 @@
 import React from 'react'
-import './GMheading.css'
 import { url } from 'inspector'
 const GMheading = () => {
   return (
