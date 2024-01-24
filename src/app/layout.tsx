@@ -1,6 +1,7 @@
 import './globals.css'
 import Division from './pages/Navbar/Division'
 import Navbar from './pages/Navbar/Navbar'
+import Footer from './Components/footer'
 
 export default function RootLayout({
   children,
@@ -11,7 +12,9 @@ export default function RootLayout({
     <html lang="en">
       <body><Navbar />
       <Division />
-      {children}</body>
+      {children}
+      <Footer/>
+      </body>
     </html>
   )
 }
