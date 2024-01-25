@@ -4,7 +4,7 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-    <div className=' w-screen h-screen flex items-center justify-center text-custom-purple font-sans m-0 p-0 '>
+    <div className=' w-screen h-screen flex items-center justify-center text-custom-purple font-sans m-0 p-0 overflow-x-hidden '>
         <div className='z-10 relative left-96'>
         <div className='font-extrabold text-5xl text-center space-x-0 '>
             <span>Building Better Products</span>
@@ -21,7 +21,7 @@ const Home = () => {
       </div>
       </div>
       
-      <div className="w-screen h-[721px] z-0 overflow-hidden">
+      <div className=" h-[721px] z-0 ">
       <img
         className="absolute top-[200px] left-[-40px] w-[94.7px] h-[90.2px] object-contain"
         alt=""
