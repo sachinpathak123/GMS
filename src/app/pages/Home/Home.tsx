@@ -5,8 +5,8 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-    <div className='overflow-hidden w-screen h-screen flex items-center justify-center text-custom-purple font-sans m-0 p-0 '>
-        <div className='z-10 relative left-96'>
+    <div className='overflow-hidden max-w-fit h-screen flex items-center  text-custom-purple font-sans m-0 p-0 '>
+        <div className='z-10 relative left-96 items-center'>
         <div className='font-extrabold text-5xl text-center space-x-0 '>
             <span>Building Better Products</span>
            <span> Shouldn't Take Forever</span>
@@ -40,9 +40,9 @@ const Home = () => {
         src="/yellowcircle.png"
       />
       <img
-        className="absolute top-[621.6px] right-[-50px] w-1/12 h-[250px] object-contain overflow-hidden "
+        className=" absolute top-[250px] right-[-17px]  h-[100px] object-contain overflow-hidden "
         alt=""
-        src="/yellowcircle.png"
+        src="/halfyellowcircle.png"
       />
       <img
         className="absolute top-[100px] right-[300px] w-[22.6px] h-[50px] object-contain"
@@ -50,9 +50,9 @@ const Home = () => {
         src="/purplecircle.png"
       />
       <img
-        className="absolute top-[350.7px] right-[-30px] w-[57.2px] h-[54.5px] object-contain"
+        className="z-0 absolute right-[-17px] top-[650px]"
         alt=""
-        src="/yellowcircle.png"
+        src="/halfyellowcircle.png"
       />
     </div>
 
