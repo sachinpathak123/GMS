@@ -4,7 +4,6 @@ import Newstat from './Newstat'
 import House from './house/House'
 import Solution from './Leadsolution/Solution'
 import GMheading from './GMcard/GMheading'
-import Compare from './compare/Compare'
 
 const page = () => {
   return (
