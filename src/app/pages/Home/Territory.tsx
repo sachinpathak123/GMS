@@ -10,14 +10,14 @@ import { useState } from 'react'
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
-      <div className="w-full max-w-5xl px-8 py-16 text-center">
+      <div className="w-full max-w-5xl px-8 py-4 text-center">
         <h1 className="text-4xl font-bold mb-8">
           Welcome to Neurology &amp; Other Specialties
         </h1>
         <p className="text-xl mb-12">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-7 gap-1">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-7 gap-1 py-8">
           <div
             id="Neurology"
             onClick={handleClick}
@@ -58,18 +58,18 @@ import { useState } from 'react'
             id="Neurology"
             onClick={handleClick}
             className={`w-full h-full lg:col-span-2 sm:col-span-1  md:col-span-1 rounded-sm text-xl focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out ${
-              active === 'Neurology' ? 'bg-blue-500 text-white' : 'bg-gmm-purple text-custom-purple'
+              active === 'Neurology' ? 'bg-blue-500 text-white' : 'bg-custom-purple text-white'
             }`}
           >
             <div className=' grid place-content-center p-2'> 
-            <img src="./BRAIN.png" alt="brain image" className='w-12 h-12' />
+            <img src="./mask.png" alt="brain image" className='w-10 h-10' />
             </div>
             Neurology
             <p className='font-thin text-xs m-7'>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quis repudiandae magni tempore libero quos saepe sit consectetur dolor recusandae.
               <br />
               <br />
-              <a href="#" className='font-thin text-xs hover:text-white duration-300'>READ MORE</a>
+              <a href="#" className='font-thin text-xs hover:text-lp-purple duration-300'>READ MORE</a>
             </p>
           </div>
           <div
@@ -130,18 +130,18 @@ import { useState } from 'react'
             id="Neurology"
             onClick={handleClick}
             className={`w-full h-full lg:col-span-2 sm:col-span-1  md:col-span-1 rounded-sm text-xl focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out ${
-              active === 'Neurology' ? 'bg-blue-500 text-white' : 'bg-gmm-purple text-custom-purple'
+              active === 'Neurology' ? 'bg-blue-500 text-white' : 'bg-custom-purple text-white'
             }`}
           >
             <div className=' grid place-content-center p-2'> 
-            <img src="./BRAIN.png" alt="brain image" className='w-12 h-12' />
+            <img src="./mask.png" alt="brain image" className='w-12 h-12' />
             </div>
             Neurology
             <p className='font-thin text-xs m-7'>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quis repudiandae magni tempore libero quos saepe sit consectetur dolor recusandae.
               <br />
               <br />
-              <a href="#" className='font-thin text-xs hover:text-white duration-300'>READ MORE</a>
+              <a href="#" className='font-thin text-xs hover:text-lp-purple duration-300'>READ MORE</a>
             </p>
           </div>
           <div

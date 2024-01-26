@@ -5,9 +5,11 @@ const Territorycircles = () => {
   return (
     <>
        <br />
-       <h1 className='text-7xl font-extrabold text-custom-purple text-center font-sans'>OUR TERRITORY</h1> 
-       <br />
-       <br />
+       <div className="soft-header bg-white" id="soft-mainHeader">
+   
+   <p className="soft-head1 font-extrabold">OUR TERRITORY</p>
+
+ </div>
        <div>
         <Territory />
        </div>
