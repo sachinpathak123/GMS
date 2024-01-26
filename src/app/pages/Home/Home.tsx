@@ -5,8 +5,8 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-    <div className='overflow-hidden max-w-fit h-screen flex items-center  text-custom-purple font-sans m-0 p-0 '>
-        <div className='z-10 relative left-96 items-center'>
+    <div className='overflow-hidden max-w-fit h-screen flex items-center justify-center text-custom-purple font-sans '>
+        <div className='z-10 relative flex-col left-96 items-center'>
         <div className='font-extrabold text-5xl text-center space-x-0 '>
             <span>Building Better Products</span>
            <span> Shouldn't Take Forever</span>

@@ -9,6 +9,7 @@ import Software from './pages/Home/Oursoftwares/Software'
 import Contact from './pages/Home/Contact'
 import Slider from './pages/Home/Slider'
 import Outcome from './pages/Home/Outcome'
+import Graph from './pages/Home/Graph'
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
         <Homesection />
         <Outcome />
           <Territorycircles />
+          <Graph />
         <Software/>
         <Slider />
         <Contact />

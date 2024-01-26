@@ -18,7 +18,13 @@ const config: Config = {
         inherit: "inherit",
       },
       fontWeight: {
-        'xxlight':'50',
+        thin: 100,
+        light: 300,
+        normal: 400,
+        semibold: 600,
+        bold: 700,
+        extrabold: 800,
+        black: 900,
       },
       fontFamily: {
         "source-sans-pro": "'Source Sans Pro'",

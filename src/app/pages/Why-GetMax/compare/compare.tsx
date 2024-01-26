@@ -1,10 +1,10 @@
 import React , { FC } from 'react';
 import Container from "@mui/material/Container";
 
-function compare() {
+function Compare() {
   return (
     <> 
-    <div>
+    <div className='flex items-end justify-end'>
       <p className="font-bold text-2xl text-center">NEED ANY MORE OF A REASON</p>
       <div style={{width:"550px",height:"5px",borderRadius:"25%",background: 'linear-gradient(to right, transparent, #9f00c5, transparent)',position:"absolute",left:"400px",top:"50px"}}></div>
       <div className='flex'>
@@ -152,4 +152,4 @@ function compare() {
   );
 }
 
-export default compare;
+export default Compare;

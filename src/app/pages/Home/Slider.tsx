@@ -75,7 +75,7 @@ function Slider() {
         className='w-full h-full rounded-2xl bg-center bg-cover duration-500 flex items-end justify-end'
       >
         <div>
-          <p className='text-white text-lg text-center py-12 px-6'>
+          <p className='text-white text-sm text-center py-6 px-6'>
             {slides[currentIndex].text}
             <br />
             <span className='text-light-pUrple font-bold'>
