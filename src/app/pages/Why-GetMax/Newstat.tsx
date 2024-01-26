@@ -3,7 +3,7 @@ import Statcard from './Statcard'
 
 const Newstat = () => {
   return (
-    <div className='w-screen  text-black bg-[#B9A7FF] h-[1200px]'>
+    <div className='w-screen  text-black bg-[#B9A7FF] h-[1000px] pb-10'>
     <br />
     <br />
     <div className=" flex flex-col items-center justify-end text-4xl text-black font-red-hat-display space-y-[-px]">
