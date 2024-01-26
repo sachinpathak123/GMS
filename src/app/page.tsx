@@ -7,7 +7,8 @@ import Homesection from './Components/Homesection'
 import Territorycircles from './pages/Home/Territorycircles'
 import Software from './pages/Home/Oursoftwares/Software'
 import Contact from './pages/Home/Contact'
-import Slider from './pages/Home/Slider'import Outcome from './pages/Home/Outcome'
+import Slider from './pages/Home/Slider'
+import Outcome from './pages/Home/Outcome'
 
 const page = () => {
   return (
