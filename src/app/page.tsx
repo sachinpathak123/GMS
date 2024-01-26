@@ -7,6 +7,7 @@ import Homesection from './Components/Homesection'
 import Territorycircles from './pages/Home/Territorycircles'
 import Software from './pages/Home/Oursoftwares/Software'
 import Contact from './pages/Home/Contact'
+import Outcome from './pages/Home/Outcome'
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
         <Division />
         <Home />
         <Homesection />
+        <Outcome />
           <Territorycircles />
         <Software/>
         <Contact />
