@@ -15,14 +15,12 @@ const config: Config = {
         "4xl": "23px",
         "5Xl": "24px",
         "17xl": "36px",
+        "18xl":"44px",
         inherit: "inherit",
-      },
-      fontWeight: {
-        'xxlight':'50',
       },
       fontFamily: {
         "source-sans-pro": "'Source Sans Pro'",
-        sans: ['Poppins', 'sans-serif'],
+        sans: ['Inter', 'sans-serif'],
         "font-awesome-5-free": "'Font Awesome 5 Free'",
       },
       colors: {
