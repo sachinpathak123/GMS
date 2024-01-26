@@ -99,14 +99,14 @@ function Slider() {
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className='text-2xl cursor-pointer'
+            className='text-lg cursor-pointer'
           >
             <motion.div
               style={{
-                margin: '0.2rem',
+                margin: '0.3rem',
               }}
               whileHover={{
-                scale: 1.3,
+                scale: 1.2,
               }}
               onClick={() => {
                 setFilled(!filled);

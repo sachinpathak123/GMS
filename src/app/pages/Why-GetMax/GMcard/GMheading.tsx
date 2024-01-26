@@ -24,11 +24,8 @@ const GMheading = () => {
           width:'85%',
           height:'110%',
           }}
-       whileHover={{ backgroundColor:'#fff',
-       backgroundImage:'none',
-       
-       }}
-       transition={{type:'easeOut',stiffness:500,duration:0.5}}
+          whileHover={{ scale:1.09
+          }}
           >
         <h2 className='text-center text-white'>STEP ONE</h2>
         </motion.div>
