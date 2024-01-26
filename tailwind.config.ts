@@ -17,6 +17,9 @@ const config: Config = {
         "17xl": "36px",
         inherit: "inherit",
       },
+      fontWeight: {
+        'xxlight':'50',
+      },
       fontFamily: {
         "source-sans-pro": "'Source Sans Pro'",
         sans: ['Poppins', 'sans-serif'],
@@ -35,9 +38,6 @@ const config: Config = {
         gray: "#040404",
         "lightskyblue": "rgba(154, 190, 254, 0.5)",
         "lp-purple":'#E0D8FF',
-        "light-slate":'rgba(255,255,255,0.2)',
-      },
-      backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
