@@ -1,6 +1,6 @@
 "use client"
+import { motion } from 'framer-motion'
 import React from 'react'
-
 
 const Home = () => {
   return (
@@ -15,9 +15,12 @@ const Home = () => {
       </div>
       </div>
       <div className='items-center  ml-64 mt-5 '>
-      <button className=' px-6 py-2 bg-purple-700 text-white rounded-md  capitalize font-thin flex flex-rowhover:bg-purple-800'>Let's get started!
+      <motion.button className=' px-6 py-2 bg-purple-700 text-white rounded-md  capitalize font-thin flex flex-row hover:bg-purple-800' whileHover={{
+        scale:1.1
+      }}
+      transition={{type:'spring',stiffness:'300'}}>Let's get started!
      
-      </button>
+      </motion.button>
      
             
       </div>
