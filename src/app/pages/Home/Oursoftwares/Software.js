@@ -34,7 +34,7 @@ const Carousel = () => {
 
   return (
     <>
-    <div className='w-screen h-3/4 bg-lp-purple'> 
+    <div className='w-screen h-3/4 bg-white'> 
     <Header/>
 
 <div className="software-section-container">

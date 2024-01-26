@@ -7,7 +7,7 @@ import Homesection from './Components/Homesection'
 import Territorycircles from './pages/Home/Territorycircles'
 import Software from './pages/Home/Oursoftwares/Software'
 import Contact from './pages/Home/Contact'
-
+import Slider from './pages/Home/Slider'
 const page = () => {
   return (
     <div>
@@ -17,7 +17,9 @@ const page = () => {
         <Homesection />
           <Territorycircles />
         <Software/>
+        <Slider />
         <Contact />
+
         {/* <Oursoftware/> */}
     </div>
   )
