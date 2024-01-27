@@ -1,16 +1,10 @@
-interface CircleProps{
-  tagline:String,
-  Info:String,
-}
 
-const CircleCard = (props:CircleProps)=>{
+const FlipCard=({tag,info}:{tag:String,info:String})=>{
   return(
-    <div className=" absolute bg-transparent w-32 h-32 pre overflow-hidden">
-      <div className=" relative w-full h-full overflow-hidden transition-transform duration-200 ease-out">
-        <div className="w-full h-full absolute backface rounded-full p-[2px] overflow-hidden border-2 border-dashed border-[#4E00C0B2] ">
-        <div className=" w-full h-full bg-[#4E00C0B2] rounded-full flex items-center justify-center text-white text-sm text-wrap text-center leading-normal font-normal">{props.tagline}</div>
-        </div>
-        <div className=" w-full h-full absolute backface rotateY">{props.Info}</div>
+    <div className={"card"}>
+      <div className={"content"}>
+        <div className={"front"}>{tag}</div>
+        <div className={"back"}>{info}</div>
       </div>
     </div>
   )
@@ -18,7 +12,7 @@ const CircleCard = (props:CircleProps)=>{
 
 function Final() {
   const circles = [
-    "Decision making skill","Communication  Skill","Innovative Capacity","Innovative Capacity","Attractive Personality","Equity","Education & Experience","Managerial Knowledge & Experience"
+    "Decision -making skill","Communi -cation  Skill","Innovative Capacity","Controlling capacity","Attractive Personality","Equity","Education & Experience","Managerial Knowledge & Experience"
   ];
   return (
     <section className={" h-[150vh] relative flex items-center justify-center"}>
@@ -31,10 +25,10 @@ function Final() {
           return (
             <li
               key={index}
-              className=" absolute w-32 h-32 rounded-full p-[2px] overflow-hidden border-2 border-dashed border-[#4E00C0B2] "
+              className=" absolute w-32 h-32 rounded-full overflow-hidden border-2 border-dashed border-[#4E00C0B2] "
               style={{ top: `calc(50% + ${y}px)`, left: `calc(50% + ${x}px)` }}
             >
-              <div className=" w-full h-full bg-[#4E00C0B2] rounded-full flex items-center justify-center text-white text-sm text-wrap text-center leading-normal font-normal">{circle}</div>
+              <FlipCard tag={circle} info={"Info of Skill"} />
             </li>
           );
         })}
