@@ -46,7 +46,7 @@ const Independent = () => {
             <p className="text-[20px] font-medium w-[28%] ml-[30px] pt-[350px] text-white ">Simplify medical billing complexities,
                     enhance revenue cycles, and improve financial outcomes.</p>
       <div className=" absolute h-screen inset-0 flex items-center justify-center">
-        <div className=" relative w-[400px] h-[400px] z-[1] -rotate-90 rounded-full">
+        <div className=" relative w-[400px] h-[400px] z-[1] -rotate-90 rounded-full ml-[630px">
           {team.map((item, index) => {
             const theta = ((2 * Math.PI) / team.length) * index;
             const x = radius * Math.cos(theta);
@@ -93,16 +93,10 @@ const Independent = () => {
           backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 10%)`,
         }}
       >
-         <Image
-          width={1000}
-          height={1000}
-          src={`/images/servicesbg${Math.floor(currentProgress / 20) + 1}.jpg`}
-          alt=""
-          className="w-full h-full absolute inset-0 -z-10 object-cover"
-        />
+         
         <svg
           width={radius * 2 + strokeWidth * 2}
-          className="flex items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -rotate-90 justify-center"
+          className="flex items-center absolute top-[-18%] left-[72%] -translate-x-1/2 -translate-y-1/2 -rotate-90 justify-center"
           height={radius * 2 + strokeWidth * 2}
           xmlns="http://www.w3.org/2000/svg"
         >
