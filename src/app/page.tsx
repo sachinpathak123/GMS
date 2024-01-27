@@ -11,7 +11,8 @@ import Contact from './pages/Home/Contact'
 import Slider from './pages/Home/Slider'
 import Outcome from './pages/Home/Outcome'
 import Graph from './pages/Home/Graph'
-import { motion, useScroll } from 'framer-motion'import Independent from './pages/Home/Independent'
+import { motion, useScroll } from 'framer-motion'
+import Independent from './pages/Home/Independent'
 
 const page = () => {
   return (
