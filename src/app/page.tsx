@@ -11,10 +11,14 @@ import Contact from './pages/Home/Contact'
 import Slider from './pages/Home/Slider'
 import Outcome from './pages/Home/Outcome'
 import Graph from './pages/Home/Graph'
-
+import { motion, useScroll } from 'framer-motion'
 const page = () => {
   return (
-    <div>
+    <motion.div 
+    initial={{opacity:0}}
+    whileInView={{opacity:1}}
+    transition={{delay:0.2}}
+   >
         <Navbar />
         <Division />
         <Home />
@@ -28,7 +32,7 @@ const page = () => {
         <Contact />
 
         {/* <Oursoftware/> */}
-    </div>
+    </motion.div>
   )
 }
 

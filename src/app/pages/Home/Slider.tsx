@@ -61,7 +61,7 @@ function Slider() {
 
   return (
     <>
-    <div className="soft-header bg-white m-3" id="soft-mainHeader">
+    <div className="soft-header bg-white m-20 py-12" id="soft-mainHeader">
    
    <p className="soft-head1 font-extrabold">Case Studies</p>
    <br />

@@ -1,10 +1,13 @@
 import React from 'react';
 import Homecard from './Cards/Homecard';
-
+import { motion } from 'framer-motion';
 const Homesection = () => {
   return (
     <>
-      <div className='relative grid grid-rows-4 h-screen w-screen'>
+      <motion.div className='relative grid grid-rows-4 h-screen w-screen'
+      initial={{opacity:0}}
+          whileInView={{opacity:1}}
+          transition={{delay:1,duration:1.25}}>
         {/* lp-purple background */}
         <div className='row-span-2 w-full h-full bg-lp-purple text-custom-purple relative z-10'>
           <h1 className='text-center font-bold text-5xl py-5'>
@@ -20,7 +23,7 @@ const Homesection = () => {
         
         {/* White background */}
         <div className='bg-white absolute top-0 left-0 right-0 bottom-0'></div>
-      </div>
+      </motion.div>
     </>
   );
 };

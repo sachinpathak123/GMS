@@ -11,7 +11,7 @@ const page = () => {
     <div>
       
       <LP />
-      <House />
+      {/* <House /> */}
       <Solution/>
       <Newstat/>
       <GMheading />
