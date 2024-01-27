@@ -65,7 +65,13 @@ const Independent = () => {
                   }}
                   onClick={() => setCurrentProgress(20 * index)}
                 >
-                  
+                 <Image
+                    height={100}
+                    width={100}
+                    src={`/images/servicesbg${index + 1}.jpg`}
+                    alt=""
+                    className=" rotate-90 w-full h-full"
+                  /> 
                 </div>
                 <div
                   className=" absolute text-center rotate-90 text-white"
@@ -87,7 +93,13 @@ const Independent = () => {
           backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 10%)`,
         }}
       >
-        
+         <Image
+          width={1000}
+          height={1000}
+          src={`/images/servicesbg${Math.floor(currentProgress / 20) + 1}.jpg`}
+          alt=""
+          className="w-full h-full absolute inset-0 -z-10 object-cover"
+        />
         <svg
           width={radius * 2 + strokeWidth * 2}
           className="flex items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -rotate-90 justify-center"
