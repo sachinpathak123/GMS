@@ -36,7 +36,7 @@ const Solution = () => {
                 <Featurelist data="Services we provide"/>
                 </div>
             </div>
-            <div className='ml-[-4px]  mt-12 '>
+            <div className='ml-[-4px]  mt-20 '>
                 <button className=' px-6 bg-purple-700 text-white rounded-md h-10 capitalize font-thin hover:bg-custom-purple'>let’s work together</button>
             </div>
         </div>
