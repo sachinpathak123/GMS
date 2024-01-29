@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 const GMheading = () => {
   const [change,setChange]=useState(false);
   return (
-    <div className=''>
+    <div className='my-28'>
       <div className='py-6'>
       <h6 className='space-x-2 font-sans font-semibold text-center tracking-[0.3rem] text-light-pUrple'>
         PROCESS AND PROCEDURE
