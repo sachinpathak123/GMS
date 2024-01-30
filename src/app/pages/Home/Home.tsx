@@ -7,9 +7,9 @@ const Home = () => {
     <>
     <div className='overflow-hidden max-w-fit h-screen flex items-center justify-center text-custom-purple font-sans '>
         <div className='z-10 relative flex-col text-center justify-items-center left-[410px]'>
-         <div className='font-extrabold text-5xl text-center space-x-0'>
-            <span>Building Better Products</span>
-            <span> Shouldn't Take Forever</span>
+         <div className='font-semibold text-5xl text-center space-x-0'>
+            <span>Dive into the heart of healthcare</span>
+            <span> prosperity with GetMax</span>
            <div className="text-base font-thin text-center py-8">
              We help companies innovate faster and build better products,<br />using real user data and rapid iterations.
            </div>

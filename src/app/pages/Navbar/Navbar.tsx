@@ -36,7 +36,7 @@ const Navbar = () => {
 
   return (
     <>
-    <motion.div className="flex justify-between items-center font-sans w-full h-20 px-4 text-light-pUrple  fixed z-50 bg-white nav"
+    <motion.div className="flex justify-between items-center font-sans w-full h-20 px-4 text-light-pUrple  fixed z-50 bg-lightGrey nav"
     initial={{y:-300}}
     animate={{y:0}}
     transition={{delay:0.2,type:'spring',stiffness:120}}
