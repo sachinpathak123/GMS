@@ -20,7 +20,7 @@ const config: Config = {
       },
       fontFamily: {
         "source-sans-pro": "'Source Sans Pro'",
-        sans: ['Inter', 'sans-serif'],
+        "inter": ['Inter','sans-serif'],
         "font-awesome-5-free": "'Font Awesome 5 Free'",
       },
       colors: {
@@ -53,6 +53,8 @@ const config: Config = {
       },
       backgroundColor: {
         'purPle': '#F6F1FF',
+        'lightGrey':'#F7F7F7',
+        'leam-purp':'#F3EFFE',
       },
      
 
