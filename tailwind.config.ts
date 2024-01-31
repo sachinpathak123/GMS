@@ -55,6 +55,7 @@ const config: Config = {
         'purPle': '#F6F1FF',
         'lightGrey':'#F7F7F7',
         'leam-purp':'#F3EFFE',
+        'terror':'rgb(248, 249, 255)',
       },
      
 
