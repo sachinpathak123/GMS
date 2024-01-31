@@ -13,6 +13,7 @@ import Outcome from './pages/Home/Outcome'
 import Graph from './pages/Home/Graph'
 import { motion, useScroll } from 'framer-motion'
 import Independent from './pages/Home/Independent'
+import Reviews from './pages/Home/Reviews/Reviews'
 
 const page = () => {
   return (
@@ -31,6 +32,7 @@ const page = () => {
         <Final />
           <Graph />
         <Software/>
+        <Reviews />
         <Slider />
         <Contact />
 
