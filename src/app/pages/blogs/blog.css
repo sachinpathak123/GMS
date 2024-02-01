@@ -8,3 +8,14 @@
 .dropdown{
     width: 102%;
 }
+
+.blog-container {
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+    justify-items: center;
+    /* grid-template-columns: 400px 400px 400px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+}
