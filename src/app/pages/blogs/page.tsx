@@ -1,7 +1,12 @@
+"use client"
+
 import Image from 'next/image';
 import './blog.css'
+import React, { useState } from 'react';
 import Dropdowns from './blogcomponents/dropdowns';
 
+import Search from './blogcomponents/searchbutton'
+import Card from './blogcomponents/Card'; 
 
 const items = [
     {
@@ -26,14 +31,76 @@ const items = [
         field4: "Sign Out",
     }
 ]
-export default function Blog () {
+const cardItems = [
+    {
+        title: 'Transformational change in healthcare',
+        description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
+        imageUrl: '/Rectangle 1317.png', 
+        
+      },
+    {
+      title: 'Healthcare studies',
+      description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
+      imageUrl: '/Rectangle 1318.png', 
+    },
+    {
+        title: 'Healthcare leaders',
+        description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
+        imageUrl: '/Rectangle 1319.png', 
+      },
+      {
+        title: 'Transformational change in healthcare',
+        description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
+        imageUrl: '/Rectangle 1320.png', 
+      },
+      {
+        title: 'Transformational change in healthcare',
+        description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
+        imageUrl: '/Rectangle 1321.png', 
+      },
+      {
+        title: 'Transformational change in healthcare',
+        description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
+        imageUrl: '/Rectangle 1322.png', 
+      },
+      {
+        title: 'Transformational change in healthcare',
+        description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
+        imageUrl: '/Rectangle 1323.png', 
+      },
+      {
+        title: 'Transformational change in healthcare',
+        description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
+        imageUrl: '/Rectangle 1324.png', 
+      },
+      {
+        title: 'Transformational change in healthcare',
+        description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
+        imageUrl: '/Rectangle 1325.png', 
+      },
+     
+  ];
+
+  const Case = () => {
+    const [visibleCardCount, setVisibleCardCount] = useState(9); 
+  
+    const loadMoreCards = () => {
+      setVisibleCardCount((prevCount) => prevCount + 3); 
+    };
+  
     return (
-        <>
-            <div >
-                <Image src="/blog.jpg" alt="case" className="w-full h-[70vh]" width="1519" height="0"/>
+      <>
+
+       <div className="white-space"></div> 
+            <div className="title-img">
+                <Image src="/blog.png" alt="case" className="title-image" width="1300" height="0"/>
+                <div className="image-overlay">
+                
+        </div>
             </div>
 
             <div>
+                
                 {items.map(item => (
                         <Dropdowns 
                             title={item.title}
@@ -44,8 +111,37 @@ export default function Blog () {
                         />
                     ))
                 }
-            </div>
+              
+            </div> 
+        
+            <div className="search-container">
 
-        </>
-    );
+            <Search />
+            <div className="search-container">
+          <Image src="/Frame 5429.png" alt="Icon 1" className="icon" width="50" height="50" />
+          <Image src="/Frame 5430.png" alt="Icon 2" className="icon" width="50" height="50" />
+          <Image src="/Frame 5431.png" alt="Icon 3" className="icon" width="50" height="50" />
+          <Image src="/Frame 5432.png" alt="Icon 3" className="icon" width="50" height="50" />
+        </div>
+            </div>
+            <div className="card-container">
+        {cardItems.slice(0, visibleCardCount).map((card, index) => (
+          <div key={index} className="card-wrapper">
+            <Card
+              title={card.title}
+              description={card.description}
+              imageUrl={card.imageUrl}
+            />
+          </div>
+        ))}
+      </div>
+      <div className="load-more-container">
+        <button className="load-more-button" onClick={loadMoreCards}>
+          Load more
+        </button>
+      </div>
+    </>
+  );
 };
+
+export default Case;
