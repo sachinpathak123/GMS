@@ -37,9 +37,9 @@ const Navbar = () => {
   return (
     <>
     <motion.div className="flex justify-between items-center font-sans w-full h-20 px-4 text-light-pUrple  fixed z-50 bg-lightGrey nav"
-    initial={{y:-300}}
-    animate={{y:0}}
-    transition={{delay:0.2,type:'spring',stiffness:120}}
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    transition={{delay:0.2}}
     >
       <div>
         {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="">Logo</a></h1> */}
