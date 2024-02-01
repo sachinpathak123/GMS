@@ -18,7 +18,7 @@ const blogcard: React.FC<blogcardProps> = ({title, desc, lnk, imgsource,user,dat
     <div className='w-11/12'>
       <div className="  ">
                 <a href="#">
-                    <img className="rounded-3xl object-cover h-[210px] sm:h-[160px] md:h-[185px] lg:h-[140px] xl:h-[210px] 2xl:h-[300px] w-full" src={lnk} alt="" />
+                    <img className="rounded-3xl object-cover h-[210px] sm:h-[160px] md:h-[185px] lg:h-[140px] xl:h-[250px] 2xl:h-[300px] w-full" src={lnk} alt="" />
                 </a>
                 <div className="p-5 pl-1">
                     <a href="#">

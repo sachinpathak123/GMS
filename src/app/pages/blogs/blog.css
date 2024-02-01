@@ -22,8 +22,8 @@
   }
   
   #searchInput {
-    width: 300px; 
-    padding: 8px;
+    width: 320px; 
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-left: 750px;
@@ -34,7 +34,9 @@
 .search-container {
     display: flex;
     align-items: center;
-    margin-top: -10px;
+    margin-top: -20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
     
   }
   
