@@ -41,6 +41,8 @@ const blogs = [
         "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
       imgsource: "/client1.png",
       user: "Joanna Mellick",
+      date: "June 28,2018",
+      shares: "1K shares",
     },
     {
         blogTitle: "Integer Maecenas Eget Viverra",
@@ -48,8 +50,10 @@ const blogs = [
           "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
         imgLink:
           "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
-          imgsource: "/client1.png",
+          imgsource: "/client2.png",
           user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
       },
       {
         blogTitle: "Integer Maecenas Eget Viverra",
@@ -57,9 +61,78 @@ const blogs = [
           "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
         imgLink:
           "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
-          imgsource: "/client1.png",
+          imgsource: "/client3.png",
           user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
       }
+      
 ]
 
 
@@ -106,6 +179,8 @@ const blogs = [
                 lnk={blog.imgLink}
                 imgsource={blog.imgsource}
                 user={blog.user}
+                date={blog.date}
+                shares={blog.shares}
             />
             ))}
         </div>
