@@ -185,6 +185,12 @@ const blogs = [
             ))}
         </div>
 
+        <div className='mb-8 justify-center align-center pl-[670px]'>
+        <a href="#" className="mb-12 justify-center text-white bg-slate-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load more</a>
+        </div>
+        
+
+
         </>
     );
 };
