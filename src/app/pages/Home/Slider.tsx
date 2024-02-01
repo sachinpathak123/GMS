@@ -61,7 +61,7 @@ function Slider() {
 
   return (
     <>
-    <div className="soft-header bg-white m-3" id="soft-mainHeader">
+    <div className="soft-header bg-white m-20 py-12" id="soft-mainHeader">
    
    <p className="soft-head1 font-extrabold">Case Studies</p>
    <br />
@@ -75,7 +75,7 @@ function Slider() {
         className='w-full h-full rounded-2xl bg-center bg-cover duration-500 flex items-end justify-end'
       >
         <div>
-          <p className='text-white text-lg text-center py-12 px-6'>
+          <p className='text-white text-sm text-center py-6 px-6'>
             {slides[currentIndex].text}
             <br />
             <span className='text-light-pUrple font-bold'>
@@ -99,14 +99,14 @@ function Slider() {
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className='text-2xl cursor-pointer'
+            className='text-lg cursor-pointer'
           >
             <motion.div
               style={{
-                margin: '0.2rem',
+                margin: '0.3rem',
               }}
               whileHover={{
-                scale: 1.3,
+                scale: 1.2,
               }}
               onClick={() => {
                 setFilled(!filled);

@@ -3,10 +3,10 @@ import Statcard from './Statcard'
 
 const Newstat = () => {
   return (
-    <div className='w-screen  text-black bg-purple-300 h-[1200px]'>
+    <div className='w-screen  text-black bg-[#B9A7FF] h-[900px] pb-8'>
     <br />
     <br />
-    <div className=" flex flex-col items-center justify-end text-4xl text-black font-red-hat-display space-y-[-px]">
+    <div className=" flex flex-col items-center justify-end text-4xl text-black font-red-hat-display space-y-[5px]">
       <b className="w-[220px] text-[25px] mb-[-50px]">
         WHY CHOOSE US
       </b>

@@ -1,8 +1,8 @@
 "use client"
+import { motion } from "framer-motion";
 import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-
 const Navbar = () => {
     const [nav, setNav] = useState(false);
 
@@ -36,7 +36,11 @@ const Navbar = () => {
 
   return (
     <>
-    <div className="flex justify-between items-center font-sans w-full h-20 px-4 text-light-pUrple  fixed z-50 bg-white nav">
+    <motion.div className="flex justify-between items-center font-sans w-full h-20 px-4 text-light-pUrple  fixed z-50 bg-lightGrey nav"
+    initial={{y:-300}}
+    animate={{y:0}}
+    transition={{delay:0.2,type:'spring',stiffness:120}}
+    >
       <div>
         {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="">Logo</a></h1> */}
         <h1 className="text-5xl font-sans ml-2 ">
@@ -53,12 +57,16 @@ const Navbar = () => {
 
       <ul className="hidden  md:flex">
         {links.map(({ id, link,link1 }) => (
-          <li
+          <motion.li
             key={id}
-            className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-800 hover:scale-105 hover:text-light-pUrple duration-300 link-underline"
+            className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-800 link-underline"
+            whileHover={{scale:1.2,
+            color:'#6020BD',
+            }}
+            transition={{type:'spring',stiffness:300}}
           >
             <Link href={link1}>{link}</Link>
-          </li>
+          </motion.li>
         ))}
       </ul>
 
@@ -84,7 +92,7 @@ const Navbar = () => {
         </ul>
       )}
             <img src="/contact.png" alt="Target Image" className='w-36 h-10 relative right-6 top-1' />
-    </div>
+    </motion.div>
             </>
   );
 };

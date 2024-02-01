@@ -15,14 +15,12 @@ const config: Config = {
         "4xl": "23px",
         "5Xl": "24px",
         "17xl": "36px",
+        "18xl":"44px",
         inherit: "inherit",
-      },
-      fontWeight: {
-        'xxlight':'50',
       },
       fontFamily: {
         "source-sans-pro": "'Source Sans Pro'",
-        sans: ['Poppins', 'sans-serif'],
+        "inter": ['Inter','sans-serif'],
         "font-awesome-5-free": "'Font Awesome 5 Free'",
       },
       colors: {
@@ -53,7 +51,12 @@ const config: Config = {
       boxShadow: {
         '3xl': '0px 0px 60px -3px rgba(0,0,0, 0.9)',
       },
-      spacing: {},
+      backgroundColor: {
+        'purPle': '#F6F1FF',
+        'lightGrey':'#F7F7F7',
+        'leam-purp':'#F3EFFE',
+        'terror':'rgb(248, 249, 255)',
+      },
      
 
     },
