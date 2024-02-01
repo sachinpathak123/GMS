@@ -1,0 +1,17 @@
+import React from 'react';
+
+const StarRating = ({ props : any }) => {
+  const stars = [];
+  
+  for (let i = 0; i < 5; i++) {
+    if (i < {props.rating}) {
+      stars.push(<img key={i} src="star-filled.png" alt="filled star" />);
+    } else {
+      stars.push(<img key={i} src="star-empty.png" alt="empty star" />);
+    }
+  }
+
+  return <div>{stars}</div>;
+};
+
+export default StarRating;
