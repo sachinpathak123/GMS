@@ -6,8 +6,43 @@
 }
 
 .dropdown{
-    width: 102%;
+    width: 102%;    
 }
+
+
+
+.search-box-container {
+    display: flex;
+    align-items: center; 
+    top:0;
+    right: 0;
+    padding: 10px;
+    z-index: 999; 
+    margin-top: -35px;
+  }
+  
+  #searchInput {
+    width: 300px; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 750px;
+    
+  }
+ 
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    
+  }
+  
+  
+  .icon {
+    margin-right: 5px; 
+  }
+ 
 
 .blog-container {
     display: grid;
