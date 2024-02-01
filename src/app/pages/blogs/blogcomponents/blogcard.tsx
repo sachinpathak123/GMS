@@ -25,7 +25,7 @@ const blogcard: React.FC<blogcardProps> = ({title, desc, lnk, imgsource,user,dat
                         <h5 className=" text-2xl font-bold tracking-tight text-gray-900 ">{title}</h5>
                     </a>
                  
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-4 mb-2">
                         <Image className='w-[10%] h-1/2 mt-6 mb-2' src={imgsource} alt="user" width="0" height="0"/>
                         <div className="font-medium dark:text-white">
                             <div className='pt-[15px] text-[17px]'>{user} ---- <span className='text-[13px] font-normal'>{date}   &#10150;{shares}</span></div>
