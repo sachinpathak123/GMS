@@ -5,7 +5,7 @@ import './case.css'
 import React, { useState } from 'react';
 import Dropdowns from './casecomponents/dropdowns';
 import Search from './casecomponents/search'
-import Card from './casecomponents/Card'; 
+import Card from './casecomponents/card'; 
 
 const items = [
     {
