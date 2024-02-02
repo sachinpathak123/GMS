@@ -36,29 +36,24 @@ const Navbar = () => {
 
   return (
     <>
-      <motion.div
-        className="flex justify-between items-center font-sans w-full h-20 px-4 text-light-pUrple  fixed z-50 bg-lightGrey nav"
-        initial={{ y: -300 }}
-        animate={{ y: 0 }}
-        transition={{ delay: 0.2, type: "spring", stiffness: 120 }}
-      >
-        <div>
-          {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="">Logo</a></h1> */}
-          <h1 className="text-5xl font-sans ml-2 ">
-            <a
-              className="link-underline link-underline-black"
-              href="https://gms-rcm.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/logo1.png"
-                alt="There was a image"
-                className="w-24 h-16"
-              />
-            </a>
-          </h1>
-        </div>
+    <motion.div className="flex justify-between items-center font-sans w-full h-20 px-4 text-light-pUrple  fixed z-50 bg-lightGrey nav"
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    transition={{delay:0.2}}
+    >
+      <div>
+        {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="">Logo</a></h1> */}
+        <h1 className="text-5xl font-sans ml-2 ">
+          <a
+            className="link-underline link-underline-black"
+            href="https://gms-rcm.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+           <img src="/logo1.png" alt="There was a image" className="w-24 h-16" /> 
+          </a>
+        </h1>
+      </div>
 
         <ul className="hidden  md:flex">
           {links.map(({ id, link, link1, sublinks }) => {

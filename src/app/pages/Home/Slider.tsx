@@ -61,7 +61,7 @@ function Slider() {
 
   return (
     <>
-    <div className="soft-header bg-white m-20 py-12" id="soft-mainHeader">
+    <div className="soft-header bg-white m-8 py-2" id="soft-mainHeader">
    
    <p className="soft-head1 font-extrabold">Case Studies</p>
    <br />
@@ -69,56 +69,7 @@ function Slider() {
 
  </div>
 
-    <div className='max-w-screen w-1/2 h-[80vh] m-auto py-16 px-4 relative group'> 
-      <div
-        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className='w-full h-full rounded-2xl bg-center bg-cover duration-500 flex items-end justify-end'
-      >
-        <div>
-          <p className='text-white text-sm text-center py-6 px-6'>
-            {slides[currentIndex].text}
-            <br />
-            <span className='text-light-pUrple font-bold'>
-              <motion.a href='#' whileHover={{
-                color:'#fff'
-              }}>READ MORE</motion.a>
-            </span>
-          </p>
-        </div>
-      </div>
-      {/* Left Arrow */}
-      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactLeft onClick={prevSlide} size={30} />
-      </div>
-      {/* Right Arrow */}
-      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactRight onClick={nextSlide} size={30} />
-      </div>
-      <div className='flex top-4 justify-center py-2'>
-        {slides.map((slide, slideIndex) => (
-          <div
-            key={slideIndex}
-            onClick={() => goToSlide(slideIndex)}
-            className='text-lg cursor-pointer'
-          >
-            <motion.div
-              style={{
-                margin: '0.3rem',
-              }}
-              whileHover={{
-                scale: 1.2,
-              }}
-              onClick={() => {
-                setFilled(!filled);
-                // You can add logic here to toggle between the icons or use a conditional rendering approach
-              }}
-            >
-              <RxCircle />
-            </motion.div>
-          </div>
-        ))}
-      </div>
-    </div>
+ 
     </>
   );
 }

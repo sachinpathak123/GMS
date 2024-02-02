@@ -1,7 +1,12 @@
+"use client"
+
 import Image from 'next/image';
 import './blog.css'
+import React, { useState } from 'react';
 import Dropdowns from './blogcomponents/dropdowns';
-
+import Search from './blogcomponents/searchbutton'
+import Blogcard from './blogcomponents/blogcard';
+ 
 
 const items = [
     {
@@ -26,11 +31,120 @@ const items = [
         field4: "Sign Out",
     }
 ]
-export default function Blog () {
+
+const blogs = [
+    {
+      blogTitle: "Integer Maecenas Eget Viverra",
+      blogDesc:
+        "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+      imgLink:
+        "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+      imgsource: "/client1.png",
+      user: "Joanna Mellick",
+      date: "June 28,2018",
+      shares: "1K shares",
+    },
+    {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client2.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      },
+      {
+        blogTitle: "Integer Maecenas Eget Viverra",
+        blogDesc:
+          "Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.",
+        imgLink:
+          "https://th.bing.com/th/id/OIP.EybiWqiOiFo0-ElRBOIcZwHaE6?rs=1&pid=ImgDetMain",
+          imgsource: "/client3.png",
+          user: "Joanna Mellick",
+          date: "June 28,2018",
+          shares: "1K shares",
+      }
+      
+]
+
+
+
+  const Blog = () => {
     return (
         <>
-            <div >
-                <Image src="/blog.jpg" alt="case" className="w-full h-[70vh]" width="1519" height="0"/>
+
+        <div className="white-space"> 
+            <div className="title-img justify-center align-center mb-8 pt-[100px]">
+                <div className='font-bold text-3xl font-[Work Sans] w-[20%] pl-[30px]'>some latest blogs goes here</div>
+                <Image src="/blog.png" alt="case" className="title-image w-[80%] pl-[275px] rounded" width="0" height="0"/>   
             </div>
 
             <div>
@@ -43,9 +157,43 @@ export default function Blog () {
                             field4={item.field4}
                         />
                     ))
-                }
+                } 
+            </div> 
+        
+            <div className="search-container">
+                <Search />
+                <div className="search-container">
+                        <Image src="/Frame 5429.png" alt="Icon 1" className="icon" width="50" height="50" />
+                        <Image src="/Frame 5430.png" alt="Icon 2" className="icon" width="50" height="50" />
+                        <Image src="/Frame 5431.png" alt="Icon 3" className="icon" width="50" height="50" />
+                        <Image src="/Frame 5432.png" alt="Icon 3" className="icon" width="50" height="50" />
+                </div>
             </div>
+        </div>
+
+        <div className="blog-container p-8">
+            {blogs.map((blog,i) => (
+            <Blogcard
+                key={i}
+                title={blog.blogTitle}
+                desc={blog.blogDesc}
+                lnk={blog.imgLink}
+                imgsource={blog.imgsource}
+                user={blog.user}
+                date={blog.date}
+                shares={blog.shares}
+            />
+            ))}
+        </div>
+
+        <div className='mb-8 justify-center align-center pl-[670px]'>
+        <a href="#" className="mb-12 justify-center text-black rounded-none border bg-white-300 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load more</a>
+        </div>
+        
+
 
         </>
     );
 };
+
+export default Blog;

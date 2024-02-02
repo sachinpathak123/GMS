@@ -9,10 +9,10 @@ const Bluecard = (props : any) => {
               alt=""
               src={props.imgsource}
            />
-           <div className="w-[132px] relative rounded-3xl bg-lightskyblue h-[215px] mt-[-215px]" />
+           <div className="w-[132px] relative rounded-3xl bg-black opacity-60 h-[215px] mt-[-215px]" />
          </div>
         <div className=" relative w-[120px] rounded-3xl h-[215px]  flex flex-col items-center justify-end py-[1.2586517333984375px] px-2 box-border  ml-[-120px]">
-          <div className="w-[120px] leading-[17.49px] font-thin inline-block h-[120px] shrink-0 mr-px text-xs text-opacity-50 "> 
+          <div className="w-[110px] leading-[17.49px] font-thin inline-block h-[120px] shrink-0 mr-px text-xs text-opacity-50 "> 
           {props.data}
           </div>
           {/* <div className='relative object-top inline-block rounded-lg p-2'>

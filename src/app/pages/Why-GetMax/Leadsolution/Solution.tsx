@@ -50,12 +50,12 @@ const Solution = () => {
             </div>
             <div className='flex flex-row pb-1.5'>
                <Pinkcard data=" Fewer claim,rejections, denials and faster payents for customers" imgsource="/rec.png"/>
-               <Bluecard data=" Proven Quality Control Process" imgsource="/smallcard2.png"/>
+               <Bluecard data=" Proven Quality Control Process" imgsource="/bluecard2.png"/>
                <Officecard imgsource="/widecard2.png"/>
                <Pinkcard data=" your Every questions will be addressed by your own Account Manager" imgsource="/rec.png"/>
             </div>
             <div className='flex flex-row pb-1.5'>
-               <Bluecard data="We adhere to HIGHEST QUALITY standard measures for RCM operations which sets us apart" imgsource="/smallcard2.png"/>
+               <Bluecard data="We adhere to HIGHEST QUALITY standard measures for RCM operations which sets us apart" imgsource="/bluecard2.png"/>
                <Officecard imgsource="/widecard3.png"/>
                <Pinkcard data=" TRANSPARENCY in work process.You will always have full control over your account" imgsource="/rec.png"/>
                <Bluecard data=" We PARTNERED with major industry vendors to ease implementation turn-around-time" imgsource="/bluecard.png"/>
