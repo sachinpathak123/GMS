@@ -34,7 +34,6 @@ const page = () => {
         <Software/>
         <Reviews />
         <Slider />
-        <Contact />
 
         {/* <Oursoftware/> */}
     </motion.div>
