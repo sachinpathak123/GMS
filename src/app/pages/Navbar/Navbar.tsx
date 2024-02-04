@@ -19,7 +19,7 @@ const Navbar = () => {
     {
       id: 3,
       link: "Resources",
-      link1: "#",
+      link1: "Resources",
       sublinks: ["Blogs", "Case Studies"],
     },
     {
@@ -39,7 +39,7 @@ const Navbar = () => {
     <motion.div className="flex justify-between items-center font-sans w-full h-20 px-4 text-light-pUrple  fixed z-50 bg-lightGrey nav"
     initial={{opacity:0}}
     animate={{opacity:1}}
-    transition={{delay:0.2}}
+    transition={{delay:0.5}}
     >
       <div>
         {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="">Logo</a></h1> */}
@@ -61,7 +61,7 @@ const Navbar = () => {
               return (
                 <motion.li
                   key={id}
-                  className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-800 link-underline"
+                  className="nav-links px-4 cursor-pointer capitalize font-medium text-[#] link-underline"
                   whileHover={{ scale: 1.2, color: "#6020BD" }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
