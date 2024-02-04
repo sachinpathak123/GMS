@@ -147,7 +147,7 @@ const blogs = [
             
                 <div className='font-bold text-3xl font-[Work Sans] w-[20%] pl-[30px]'>some latest blogs goes here</div>
                 
-                <Image src='/blog1.png' alt="case" className="title-image w-[80%] pl-[275px] rounded" width="400" height="400">
+                <Image src='/blog.png' alt="case" className="title-image w-[80%] pl-[275px] rounded" width="400" height="400">
 
                   </Image>   
             </div>
