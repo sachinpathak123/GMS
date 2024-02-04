@@ -1,21 +1,19 @@
-import React from 'react';
-function Hexagon() {
+import React from 'react'
+
+function overlap ()  {
   return (
-    <div>
-      <img className='absolute inset-0 w-screen h-[230px] mt-14 object-cover' src='/purpleback.png' alt='no background' />
-      <img className='mix-blend-lighten absolute inset-0 mt-[2px]  w-80 h-80 object-cover' src='./hexagon.png' alt='no hexagon' />
-     
-      <p className= 'absolute mt-20 ml-[490px] text-white font-medium text-lg'>Do you want to know why we are better than
-         <p className='relative  ml-20 text-white font-medium text-lg'>other medical billing sites? </p>
+    
+    <div className="flex">
+      <img src="purpleback.png" alt="Image 1" className="w-screen h-[270px] z-10" />
+      <img src="hexagon.png" alt="Image 2" className="w-[370px] h-[330px] z-20 -mt-[23px] -ml-[1350px] " />
+      <p className= ' text-white mt-16 font-medium z-30 text-lg  ml-36'>Do you want to know why we are better than
+         <p className='  ml-20 text-white font-medium text-lg'>other medical billing sites? </p>
       </p>
-      <button className= "absolute ml-[590px] bg-slate-100 mt-[160px] hover:bg-purple-400  text-purple-700 font-bold py-2 px-9  rounded-md">
+      <button className= "z-40  bg-slate-100 h-[30px] w-[170px] ml-[-270px] mt-36 transition-transform transform hover:scale-110 text-purple-700 font-bold  rounded-md">
        Why GetMax
   </button>
     </div>
-  );
-}
-
-export default Hexagon;
-
-
-   
+    
+    
+  )};
+export default overlap

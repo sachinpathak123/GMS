@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import Hexagon from './Hexagon';
+import Overlap from './Hexagon';
 import Header from './Header';
 import Footer from './Footer';
 import Principle from './principle';
@@ -30,7 +30,7 @@ const page = () => {
     <Header />
     </div>
     <div className='relative'>
-      <Hexagon />      
+      <Overlap/>      
     </div>
     {/* <div className='relative'>
       <Footer /> 
