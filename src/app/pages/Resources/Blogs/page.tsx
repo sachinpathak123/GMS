@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import './blog.css'
 import React, { useState } from 'react';
-import Dropdowns from './blogcomponents/dropdowns';
+import Dropdowns from './blogcomponents/Dropdowns';
 import Search from './blogcomponents/searchbutton'
 import Blogcard from './blogcomponents/blogcard';
 import Link from 'next/link';
