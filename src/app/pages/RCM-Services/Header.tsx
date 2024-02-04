@@ -38,4 +38,4 @@ function Header() {
 }
 
 //style={{backgroundColor:'#F0F0F0',width:'950px',height:'250px',marginTop:'50px',marginLeft:'200px',borderRadius:'15px'}}
-export default Header
+export default Header;

@@ -14,7 +14,7 @@ const Navbar = () => {
     {
       id: 2,
       link: "RCM services",
-      link1: "#",
+      link1: "/pages/RCM-Services",
     },
     {
       id: 3,

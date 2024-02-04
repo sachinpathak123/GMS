@@ -263,4 +263,4 @@ function octagon() {
   )
 }
 
-export default octagon
+export default octagon;
