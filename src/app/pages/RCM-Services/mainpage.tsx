@@ -1,5 +1,5 @@
 import React from "react";
-import 'C:/ZIP/ZIP/ZIP/src/App.css';
+import './App.css';
 function mainpage() {
     return (
         <div className="w-full">
