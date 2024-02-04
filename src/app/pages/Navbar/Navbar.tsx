@@ -20,7 +20,7 @@ const Navbar = () => {
       id: 3,
       link: "Resources",
       link1: "#",
-      sublinks: ["Blogs", "LINK"],
+      sublinks: ["Blogs", "Case Studies"],
     },
     {
       id: 4,
@@ -98,7 +98,7 @@ const Navbar = () => {
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Link href={link1}>{link}</Link>
-                  <div className=" bg-purple-500 flex transition-opacity ease-out duration-500 flex-row items-stretch justify-stretch h-48 -translate-x-1/3 absolute mt-5 opacity-0 group-hover:opacity-100 w-150">
+                  <div className=" bg-purple-500 flex transition-all ease-out duration-500 flex-row items-stretch justify-stretch h-0 group-hover:h-48 -translate-x-1/3 absolute mt-5 opacity-0 group-hover:opacity-100 w-0 group-hover:w-150">
                     <ul className=" flex-grow border-r-2 border-white border-solid p-3">
                     <li
                         className=" nav-links p-2 pr-4 hover:translate-x-3 transition-transform duration-150 ease-out cursor-pointer capitalize font-medium text-white link-underline"
