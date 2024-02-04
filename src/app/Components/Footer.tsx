@@ -35,7 +35,7 @@ const Contact = (props:props) => {
               />
               <button
                 type="submit"
-                className="text-white absolute end-2.5 bottom-2.5 bg-[#1e1e1e97] hover:bg-custom-purple hover:transition-colors transition-colors  font-medium  text-xs md:text-sm px-2 md:px-10 py-3 md:py-2"
+                className="text-white absolute end-2.5 bottom-2.5 bg-[#1e1e1e97] hover:bg-custom-purple hover:transition-colors transition-colors font-inter font-medium  text-xs md:text-sm px-2 md:px-10 py-3 md:py-2 "
                 style={{
                   boxShadow: "0px 6px 20px 0px rgba(112,111,229,0.50)",
                 }}
@@ -187,7 +187,7 @@ export default function Footer() {
               </svg>
             </div>
             <p
-              className="text-[rgba(140,23,232,0.54)] text-base not-italic font-normal leading-6;
+              className="text-[rgba(140,23,232,0.54)] text-base not-italic font-inter font-normal leading-6;
   font-family: Roboto"
             >
               skyrev theme 2021
@@ -196,70 +196,69 @@ export default function Footer() {
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2
-                className="title-font  tracking-widest text-sm mb-3 text-[#8C17E8] text-[25px] not-italic font-black leading-[normal] uppercase;
-                font-['Lato'] "
+                className="title-font font-inter  tracking-widest text-sm mb-3 text-[#8C17E8] text-[25px] not-italic font-black leading-[normal] uppercase;
+              "
               >
                 CATEGORIES
               </h2>
               <nav className="list-none text-black text-lg not-italic font-normal leading-5;
   font-['Lato] mb-10">
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                  <a className="font-inter  text-gray-600 hover:text-gray-800">First Link</a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">Second Link</a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">Third Link</a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">Fourth Link</a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2
-                className="title-font  tracking-widest text-sm mb-3 text-[#8C17E8] text-[25px] not-italic font-black leading-[normal] uppercase;
-                font-['Lato'] "
+                className="title-font font-inter tracking-widest text-sm mb-3 text-[#8C17E8] text-[25px] not-italic font-black leading-[normal] uppercase;
+               "
+              >
+                CATEGORIES
+              </h2>
+              <nav className="list-none text-black text-lg not-italic font-normal leading-5; mb-10">
+                <li>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">First Link</a>
+                </li>
+                <li>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">Second Link</a>
+                </li>
+                <li>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">Third Link</a>
+                </li>
+                <li>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">Fourth Link</a>
+                </li>
+              </nav>
+            </div>
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2
+                className="title-font font-inter  tracking-widest text-sm mb-3 text-[#8C17E8] text-[25px] not-italic font-black leading-[normal] uppercase;
+                "
               >
                 CATEGORIES
               </h2>
               <nav className="list-none text-black text-lg not-italic font-normal leading-5;
   font-family: Lato mb-10">
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">First Link</a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">Second Link</a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">Third Link</a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2
-                className="title-font  tracking-widest text-sm mb-3 text-[#8C17E8] text-[25px] not-italic font-black leading-[normal] uppercase;
-                font-['Lato'] "
-              >
-                CATEGORIES
-              </h2>
-              <nav className="list-none text-black text-lg not-italic font-normal leading-5;
-  font-family: Lato mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">Fourth Link</a>
                 </li>
               </nav>
             </div>

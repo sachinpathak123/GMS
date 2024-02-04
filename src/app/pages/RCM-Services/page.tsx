@@ -3,11 +3,12 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Hexagon from './Hexagon';
 import Header from './Header';
-import Footer from './Footer';
+import Footer from './NextGen';
 import Principle from './principle';
 import How from './how';
 import Sidebar from './sidebar';
 import MainPage from './mainpage';
+import NextGen from './NextGen';
 
 const page = () => {
     const [isClient, setIsClient] = useState(false)
@@ -18,24 +19,29 @@ const page = () => {
    
   return (
     <div>
-          <div>
+   
       <MainPage />
-      <div className='relative'><Sidebar /></div>
-   <div className='relative'>
-    <How /></div>
-    <div className='relative'>
+       
+    <Sidebar />
+    
+
+    <How />
+
+    
     <Principle />
-    </div>
-    <div className='relative'> 
+    
+   
+  
     <Header />
-    </div>
-    <div className='relative'>
-      <Hexagon />      
-    </div>
-    {/* <div className='relative'>
-      <Footer /> 
-    </div>   */}
-  </div>
+    
+  
+      
+      {/* <Hexagon />       */}
+    
+  
+      <NextGen /> 
+
+ 
     </div>
   )
 }
