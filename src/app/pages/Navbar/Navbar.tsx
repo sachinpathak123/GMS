@@ -19,8 +19,10 @@ const Navbar = () => {
     {
       id: 3,
       link: "Resources",
-      link1: "Resources",
+      link1: "/Resources",
       sublinks: ["Blogs", "Case Studies"],
+      blogsLink: "/pages/Resources/Blogs",
+      caseStudiesLink: "/pages/Resources/Case-Studies",
     },
     {
       id: 4,
@@ -56,39 +58,43 @@ const Navbar = () => {
       </div>
 
         <ul className="hidden  md:flex">
-          {links.map(({ id, link, link1, sublinks }) => {
-            if (link !== "Resources" && link !== "RCM services") {
-              return (
-                <motion.li
-                  key={id}
-                  className="nav-links px-4 cursor-pointer capitalize font-medium text-[#] link-underline"
-                  whileHover={{ scale: 1.2, color: "#6020BD" }}
-                  transition={{ type: "spring", stiffness: 300 }}
-                >
-                  <Link href={link1}>{link}</Link>
-                </motion.li>
-              );
-            } else if (link == "Resources") {
-              return (
-                <motion.li
-                  key={id}
-                  className="nav-links px-4 cursor-pointer group capitalize font-medium link-underline"
-                  whileHover={{ scale: 1.2, color: "#6020BD" }}
-                  transition={{ type: "spring", stiffness: 300 }}
-                >
-                  <Link href={link1}>{link}</Link>
-                  <ul className=" opacity-0 transition-opacity duration-500 ease-out p-3 w-fit bg-purple-500 group-hover:opacity-100 absolute mt-5">
-                    {sublinks?.map((sub, i) => (
-                      <li
-                        key={i}
-                        className=" nav-links p-2 pr-4 hover:translate-x-3 transition-transform duration-150 ease-out cursor-pointer capitalize font-medium text-white link-underline"
-                      >
-                        <Link href={"#"}>{sub}</Link>
-                      </li>
-                    ))}
-                  </ul>
-                </motion.li>
-              );
+        {links.map(({ id, link, link1, sublinks, blogsLink, caseStudiesLink }) => {
+  if (link !== "Resources" && link !== "RCM services") {
+    return (
+      <motion.li
+        key={id}
+        className="nav-links px-4 cursor-pointer capitalize font-medium text-[#] link-underline"
+        whileHover={{ scale: 1.2, color: "#6020BD" }}
+        transition={{ type: "spring", stiffness: 300 }}
+      >
+        <Link href={link1}>{link}</Link>
+      </motion.li>
+    );
+  } else if (link == "Resources") {
+    return (
+      <motion.li
+        key={id}
+        className="nav-links px-4 cursor-pointer group capitalize font-medium link-underline"
+        whileHover={{ scale: 1.2, color: "#6020BD" }}
+        transition={{ type: "spring", stiffness: 300 }}
+      >
+        <Link href={link1}>{link}</Link>
+        <ul className=" opacity-0 transition-opacity duration-500 ease-out p-3 w-fit bg-purple-500 group-hover:opacity-100 absolute mt-5">
+          {sublinks?.map((sub, i) => (
+            <li
+              key={i}
+              className=" nav-links p-2 pr-4 hover:translate-x-3 transition-transform duration-150 ease-out cursor-pointer capitalize font-medium text-white link-underline"
+            >
+              {sub === "Blogs" ? (
+                <Link href={blogsLink}>{sub}</Link> // Use blogsLink here
+              ) : (
+                <Link href={caseStudiesLink}>{sub}</Link> // Use caseStudiesLink here
+              )}
+            </li>
+          ))}
+        </ul>
+      </motion.li>
+    );
             } else {
               return (
                 <motion.li

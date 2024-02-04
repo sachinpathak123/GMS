@@ -6,6 +6,7 @@ import React, { useState } from 'react';
 import Dropdowns from './blogcomponents/dropdowns';
 import Search from './blogcomponents/searchbutton'
 import Blogcard from './blogcomponents/blogcard';
+import Link from 'next/link';
  
 
 const items = [
@@ -142,9 +143,13 @@ const blogs = [
         <>
 
         <div className="white-space"> 
-            <div className="title-img justify-center align-center mb-8 pt-[100px]">
+            <div className="justify-center align-center mb-8 pt-[100px]">
+            
                 <div className='font-bold text-3xl font-[Work Sans] w-[20%] pl-[30px]'>some latest blogs goes here</div>
-                <Image src="/blog.png" alt="case" className="title-image w-[80%] pl-[275px] rounded" width="0" height="0"/>   
+                
+                <Image src='/blog1.png' alt="case" className="title-image w-[80%] pl-[275px] rounded" width="400" height="400">
+
+                  </Image>   
             </div>
 
             <div>
@@ -163,10 +168,10 @@ const blogs = [
             <div className="search-container">
                 <Search />
                 <div className="search-container">
-                        <Image src="/Frame 5429.png" alt="Icon 1" className="icon" width="50" height="50" />
-                        <Image src="/Frame 5430.png" alt="Icon 2" className="icon" width="50" height="50" />
-                        <Image src="/Frame 5431.png" alt="Icon 3" className="icon" width="50" height="50" />
-                        <Image src="/Frame 5432.png" alt="Icon 3" className="icon" width="50" height="50" />
+                        <Image src="/Frame 5429.png" alt="Icon 1" className="icon" width="40" height="60" />
+                        <Image src="/Frame 5430.png" alt="Icon 2" className="icon" width="40" height="60" />
+                        <Image src="/Frame 5431.png" alt="Icon 3" className="icon" width="40" height="60" />
+                        <Image src="/Frame 5432.png" alt="Icon 3" className="icon" width="40" height="60" />
                 </div>
             </div>
         </div>
