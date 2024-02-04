@@ -63,7 +63,7 @@ function sidebar() {
                     <h className="text-3xl font-bold">Revenue Cycle Management</h>
                 </div>
                 <div className="flex">
-                    <img className="max-w-80 max-h-80" src="example.jpg" alt="Description"/>
+                    <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description"/>
                     <div className="mx-32 flex flex-col items-center">
                         <p className="mb-8">
                             Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.
@@ -94,7 +94,7 @@ function sidebar() {
                             gravida viverra. Fusce vel tempor elit.</p>
                         <p className="bg-gray-100 p-4 border rounded-lg  ">lorem ipsum dolor sit amet</p>
                     </div>
-                    <img className="max-w-80 max-h-80" src="example.jpg" alt="Description"/>
+                    <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description"/>
                 </div>
             </section>
 
@@ -104,7 +104,7 @@ function sidebar() {
                     <h className="text-3xl font-bold">Revenue Cycle Management</h>
                 </div>
                 <div className="flex">
-                    <img className="max-w-80 max-h-80" src="example.jpg" alt="Description"/>
+                    <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description"/>
                     <div className="mx-32 flex flex-col items-center">
                         <p className="mb-8">
                             Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.
@@ -136,7 +136,7 @@ function sidebar() {
                             gravida viverra. Fusce vel tempor elit.</p>
                         <p className="bg-gray-100 p-4 border rounded-lg  ">lorem ipsum dolor sit amet</p>
                     </div>
-                    <img className="max-w-80 max-h-80" src="example.jpg" alt="Description"/>
+                    <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description"/>
                 </div>
             </section>
 
@@ -146,7 +146,7 @@ function sidebar() {
                     <h className="text-3xl font-bold">Revenue Cycle Management</h>
                 </div>
                 <div className="flex">
-                    <img className="max-w-80 max-h-80" src="example.jpg" alt="Description"/>
+                    <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description"/>
                     <div className="mx-32 flex flex-col items-center">
                         <p className="mb-8">
                             Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.
@@ -177,7 +177,7 @@ function sidebar() {
                             gravida viverra. Fusce vel tempor elit.</p>
                         <p className="bg-gray-100 p-4 border rounded-lg  ">lorem ipsum dolor sit amet</p>
                     </div>
-                    <img className="max-w-80 max-h-80" src="example.jpg" alt="Description"/>
+                    <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description"/>
                 </div>
             </section>
 
@@ -187,7 +187,7 @@ function sidebar() {
                     <h className="text-3xl font-bold">Revenue Cycle Management</h>
                 </div>
                 <div className="flex">
-                    <img className="max-w-80 max-h-80" src="example.jpg" alt="Description"/>
+                    <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description"/>
                     <div className="mx-32 flex flex-col items-center">
                         <p className="mb-8">
                             Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.
@@ -219,7 +219,7 @@ function sidebar() {
                             gravida viverra. Fusce vel tempor elit.</p>
                         <p className="bg-gray-100 p-4 border rounded-lg  ">lorem ipsum dolor sit amet</p>
                     </div>
-                    <img className="max-w-80 max-h-80" src="example.jpg" alt="Description"/>
+                    <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description"/>
                 </div>
             </section>
 
@@ -229,7 +229,7 @@ function sidebar() {
                     <h className="text-3xl font-bold">Revenue Cycle Management</h>
                 </div>
                 <div className="flex">
-                    <img className="max-w-80 max-h-80" src="example.jpg" alt="Description"/>
+                    <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description"/>
                     <div className="mx-32 flex flex-col items-center">
                         <p className="mb-8">
                             Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.
@@ -260,7 +260,7 @@ function sidebar() {
                             gravida viverra. Fusce vel tempor elit.</p>
                         <p className="bg-gray-100 p-4 border rounded-lg  ">lorem ipsum dolor sit amet</p>
                     </div>
-                    <img className="max-w-80 max-h-80" src="example.jpg" alt="Description"/>
+                    <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description"/>
                 </div>
             </section>
 
@@ -270,7 +270,7 @@ function sidebar() {
                     <h className="text-3xl font-bold">Revenue Cycle Management</h>
                 </div>
                 <div className="flex">
-                    <img className="max-w-80 max-h-80" src="example.jpg" alt="Description"/>
+                    <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description"/>
                     <div className="mx-32 flex flex-col items-center">
                         <p className="mb-8">
                             Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.
@@ -302,7 +302,7 @@ function sidebar() {
                             gravida viverra. Fusce vel tempor elit.</p>
                         <p className="bg-gray-100 p-4 border rounded-lg  ">lorem ipsum dolor sit amet</p>
                     </div>
-                    <img className="max-w-80 max-h-80" src="example.jpg" alt="Description"/>
+                    <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description"/>
                 </div>
             </section>
 

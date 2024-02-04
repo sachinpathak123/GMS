@@ -17,7 +17,7 @@ function mainpage() {
                     <button className="b">Let's get started!</button>
                 </div>
                 <div className="image">
-                    <img src="description.png" alt="Description" />
+                    <img src="/description.png" alt="Description" />
                 </div>
                 <div className="bottom-right-rectangle"></div>
                 <div className="triangle bottom-right"></div>
