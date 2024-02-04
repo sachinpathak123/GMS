@@ -33,14 +33,12 @@ const page = () => {
    
   
     <Header />
-    </div>
-    <div className='relative'>
+
       <Hexagon />      
-    </div>
+   
     {/* <div className='relative'>
       <Footer /> 
     </div>   */}
-  </div>
     </div>
   )
 }
