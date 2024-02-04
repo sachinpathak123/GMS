@@ -143,7 +143,7 @@ const blogs = [
         <>
 
         <div className="white-space"> 
-            <div className="justify-center align-center mb-8 pt-[100px]">
+            <div className="justify-center align-center mb-12 pt-[100px]">
             
                 <div className='font-bold text-3xl font-[Work Sans] w-[20%] pl-[30px]'>some latest blogs goes here</div>
                 
@@ -191,7 +191,7 @@ const blogs = [
             ))}
         </div>
 
-        <div className='mb-8 justify-center align-center pl-[670px]'>
+        <div className='mb-8 justify-center align-center pl-[680px]'>
         <a href="#" className="mb-12 justify-center text-black rounded-none border bg-white-300 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load more</a>
         </div>
         
