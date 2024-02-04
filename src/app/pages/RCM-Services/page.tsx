@@ -34,7 +34,7 @@ const page = () => {
   
     <Header />
 
-      <Hexagon />      
+      <Overlap />      
    
     {/* <div className='relative'>
       <Footer /> 
