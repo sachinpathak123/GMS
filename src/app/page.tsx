@@ -27,7 +27,7 @@ const page = () => {
         <Home />
         <Homesection />
         <Outcome />
-          <Territorycircles />
+        <Territorycircles />
         <Independent/>
         {/* <Final /> */}
           <Graph />
