@@ -7,7 +7,7 @@ const Home = () => {
     <>
     <div className='overflow-hidden max-w-fit h-screen flex items-center justify-center text-custom-purple font-sans pt-44 '>
         <div className='z-10  w-screen flex-col text-center items-center justify-items-center  '>
-         <div className='font-semibold text-[60px] text-center w-screen text-transparent bg-clip-text bg-gradient-to-r from-[#8C17E8] to-[#3C058C] tracking-normal leading-[60px] textthi'>
+         <div className='font-semibold text-[60px] text-center w-screen text-transparent bg-clip-text bg-gradient-to-r from-[#8C17E8] to-[#3C058C] tracking-normal leading-[60px] '>
             <span>Dive into the heart of healthcare</span>
             <br/>
             <span>prosperity with GetMax</span>
