@@ -5,17 +5,18 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-    <div className='overflow-hidden max-w-fit h-screen flex items-center justify-center text-custom-purple font-sans '>
-        <div className='z-10 relative flex-col text-center justify-items-center left-[410px]'>
-         <div className='font-semibold text-5xl text-center space-x-0'>
+    <div className='overflow-hidden max-w-fit h-screen flex items-center justify-center text-custom-purple font-sans pt-44 '>
+        <div className='z-10  w-screen flex-col text-center items-center justify-items-center  '>
+         <div className='font-semibold text-[60px] text-center w-screen text-transparent bg-clip-text bg-gradient-to-r from-[#8C17E8] to-[#3C058C] tracking-normal leading-[60px] textthi'>
             <span>Dive into the heart of healthcare</span>
-            <span> prosperity with GetMax</span>
-           <div className="text-base font-thin text-center py-8">
-             We help companies innovate faster and build better products,<br />using real user data and rapid iterations.
+            <br/>
+            <span>prosperity with GetMax</span>
+           <div className="text-base font-semibold text-center py-8 text-[#1E1E1E]">
+           where RCM mastery meets the pulse of financial wellness – rewriting the <br />narrative of success for every healthcare institution
            </div>
          </div>
-         <div className='items-center  ml-64 mt-5 '>
-           <motion.button className=' px-6 py-2 bg-purple-700 text-white rounded-md  capitalize font-thin flex flex-row hover:bg-purple-800' whileHover={{
+         <div className='items-center justify-items-center text-center'>
+           <motion.button className='items-center justify-items-center text-center px-6 py-2 bg-purple-700 text-white rounded-md  capitalize font-thin  hover:bg-purple-800' whileHover={{
             scale:1.1
            }}
            transition={{type:'spring',stiffness:'300'}}>Let's get started!
@@ -51,7 +52,7 @@ const Home = () => {
           src="/purplecircle.png"
         />
         <img
-          className="z-0 absolute right-[-17px] top-[650px]"
+          className="z-0 absolute right-[-17px] top-[650px] w-[80px]"
           alt=""
           src="/halfyellowcircle.png"
       />
