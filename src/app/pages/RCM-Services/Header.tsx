@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className=" px-36 py-12" >
-      <div className='bg-metrics font-inter py-12 px-12 rounded-md'>
+    <div className=" px-36 py-24" >
+      <div className='bg-metrics font-inter py-12 px-24 rounded-3xl'>
         <p className="text-center font-semibold py-4 text-6xl">Our Metrics Tells the Story</p>
         <p className="text-center text-lg mt-4 font-thin">Our Metrics component givs you inside scoop on your success and helps you stay on top of your game in style</p>
         <div className='flex items-start justify-center'>

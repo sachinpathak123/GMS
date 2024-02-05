@@ -2,8 +2,8 @@ import React from 'react';
 
 function How() {
   return (
-    <div className="bg-gray-100 pt-8 mt-8">
-      <h1 className="font-bold ml-48 pl-4 text-xl">How we do it?</h1>
+    <div className="bg-metrics my-32 py-8">
+      <h1 className="font-bold pl-[15.1rem] text-2xl">How we do it?</h1>
       <div className="flex justify-around bg-gray-100 mx-48 mt-12">
         <div className="w-72">
           <img className="w-10 h-10 my-4" src="/mobile_web_design.png" alt="M&W" />
