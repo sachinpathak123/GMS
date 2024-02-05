@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className="mt-[-40px]">
-      <div className='bg-purple-200 w-screen h-[270px] rounded-md'>
+    <div className="" >
+      <div className='bg-purple-200 text w-[80vw] h-[30vh] rounded-md'>
         <p className="text-center font-bold text-2xl">Our Metrics Tells the Story</p>
         <p className="text-center text-1xl mt-4 font-semibold">Our Metrics component givs you inside scoop on your success and helps you stay on top of your game in style</p>
         <div>

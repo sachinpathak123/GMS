@@ -33,12 +33,9 @@ const page = () => {
    
   
     <Header />
-
       <Overlap />      
    
-    {/* <div className='relative'>
-      <Footer /> 
-    </div>   */}
+      <NextGen /> 
     </div>
   )
 }
