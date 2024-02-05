@@ -57,6 +57,7 @@ const config: Config = {
         'lightGrey':'#F7F7F7',
         'leam-purp':'#F3EFFE',
         'terror':'rgb(248, 249, 255)',
+        'metrics':'rgba(185, 167, 255,0.12)',
       },
      
 

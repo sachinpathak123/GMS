@@ -34,7 +34,10 @@ const page = () => {
         <Software/>
         <Reviews />
         <Slider />
-
+          <br />
+          <br />
+          <br />
+          <br />
         {/* <Oursoftware/> */}
     </motion.div>
   )

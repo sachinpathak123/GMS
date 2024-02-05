@@ -4,13 +4,12 @@ function overlap ()  {
   return (
     
     <div style={{
-      backgroundImage: `url('/grouphexagon.png')`,
-      backgroundSize:'full',
-      width:'110vw',
+      backgroundImage: `url('/grouphexagon1.png')`,
+      width:'100vw',
       height:'30vh',
-    }}>
+    }} className='p-2'>
       
-      <div className='flex flex-col px-48 py-6 gap-4 items-center justify-center'>
+      <div className='flex flex-col py-16 gap-8 items-center justify-center'>
         
       <div className='z-50'><p className= 'text-white font-medium z-40 text-lg'>Do you want to know why we are better than
          <span className=' text-white font-medium z-40 text-lg'>other medical billing sites? </span>

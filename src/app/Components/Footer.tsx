@@ -56,8 +56,8 @@ export default function Footer() {
   return (
 <>
   
-    <Contact ClassName={'flex flex-row justify-center  translate-y-1/3 z-50 bg-transparent '}/>
-  <footer className="text-gray-600 bg-purple-100 -z-10  body-font">
+    <Contact ClassName={'flex flex-row justify-center  translate-y-1/3 z-50'}/>
+  <footer className="text-gray-600 bg-purple-200 -z-10  body-font">
         <div className="container  px-5 pt-44 pb-24 mx-auto flex justify-center items-center lg:items-start md:flex-row  md:flex-nowrap flex-wrap flex-col">
           <div className="w-1/3 gap-3 flex-shrink-0 flex items-center justify-center flex-col md:mx-0 p-100 text-center md:text-left">
             <a className="flex h-auto title-font font-medium items-center w-[150px]  md:justify-start justify-center text-gray-900">

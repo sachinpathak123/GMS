@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 function sidebar() {
 return (
 <div className="flex text-center">
-    <aside className="top-20 w-1/6 bg-gray-50 text-black py-2 sticky h-screen overflow-y-auto">
+    <aside className="top-20 w-1/6 bg-purple-200 text-black py-2 sticky h-screen overflow-y-auto">
         <nav className="space-y-4">
             <Link
                 className="text-center block py-2 rounded transition duration-300 hover:text-purple-900 border-b border-black"
@@ -66,7 +66,7 @@ return (
                 <h className="text-3xl font-bold">Revenue Cycle Management</h>
             </div>
             <div className="flex">
-                <img className="max-w-80 max-h-80" src="example.jpg" alt="Description" />
+                <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description" />
                 <div className="mx-32 flex flex-col items-center">
                     <p className="mb-8">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
@@ -109,7 +109,7 @@ return (
                         gravida viverra. Fusce vel tempor elit.</p>
                     <p className="bg-gray-100 p-4 border rounded-lg  ">lorem ipsum dolor sit amet</p>
                 </div>
-                <img className="max-w-80 max-h-80" src="example.jpg" alt="Description" />
+                <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description" />
             </div>
         </section>
 
@@ -119,7 +119,7 @@ return (
                 <h className="text-3xl font-bold">Revenue Cycle Management</h>
             </div>
             <div className="flex">
-                <img className="max-w-80 max-h-80" src="example.jpg" alt="Description" />
+                <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description" />
                 <div className="mx-32 flex flex-col items-center">
                     <p className="mb-8">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
@@ -163,7 +163,7 @@ return (
                         gravida viverra. Fusce vel tempor elit.</p>
                     <p className="bg-gray-100 p-4 border rounded-lg  ">lorem ipsum dolor sit amet</p>
                 </div>
-                <img className="max-w-80 max-h-80" src="example.jpg" alt="Description" />
+                <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description" />
             </div>
         </section>
 
@@ -173,7 +173,7 @@ return (
                 <h className="text-3xl font-bold">Revenue Cycle Management</h>
             </div>
             <div className="flex">
-                <img className="max-w-80 max-h-80" src="example.jpg" alt="Description" />
+                <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description" />
                 <div className="mx-32 flex flex-col items-center">
                     <p className="mb-8">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
@@ -216,7 +216,7 @@ return (
                         gravida viverra. Fusce vel tempor elit.</p>
                     <p className="bg-gray-100 p-4 border rounded-lg  ">lorem ipsum dolor sit amet</p>
                 </div>
-                <img className="max-w-80 max-h-80" src="example.jpg" alt="Description" />
+                <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description" />
             </div>
         </section>
 
@@ -226,7 +226,7 @@ return (
                 <h className="text-3xl font-bold">Revenue Cycle Management</h>
             </div>
             <div className="flex">
-                <img className="max-w-80 max-h-80" src="example.jpg" alt="Description" />
+                <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description" />
                 <div className="mx-32 flex flex-col items-center">
                     <p className="mb-8">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
@@ -270,7 +270,7 @@ return (
                         gravida viverra. Fusce vel tempor elit.</p>
                     <p className="bg-gray-100 p-4 border rounded-lg  ">lorem ipsum dolor sit amet</p>
                 </div>
-                <img className="max-w-80 max-h-80" src="example.jpg" alt="Description" />
+                <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description" />
             </div>
         </section>
 
@@ -280,7 +280,7 @@ return (
                 <h className="text-3xl font-bold">Revenue Cycle Management</h>
             </div>
             <div className="flex">
-                <img className="max-w-80 max-h-80" src="example.jpg" alt="Description" />
+                <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description" />
                 <div className="mx-32 flex flex-col items-center">
                     <p className="mb-8">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
@@ -323,7 +323,7 @@ return (
                         gravida viverra. Fusce vel tempor elit.</p>
                     <p className="bg-gray-100 p-4 border rounded-lg  ">lorem ipsum dolor sit amet</p>
                 </div>
-                <img className="max-w-80 max-h-80" src="example.jpg" alt="Description" />
+                <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description" />
             </div>
         </section>
 
@@ -333,7 +333,7 @@ return (
                 <h className="text-3xl font-bold">Revenue Cycle Management</h>
             </div>
             <div className="flex">
-                <img className="max-w-80 max-h-80" src="example.jpg" alt="Description" />
+                <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description" />
                 <div className="mx-32 flex flex-col items-center">
                     <p className="mb-8">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
@@ -377,7 +377,7 @@ return (
                         gravida viverra. Fusce vel tempor elit.</p>
                     <p className="bg-gray-100 p-4 border rounded-lg  ">lorem ipsum dolor sit amet</p>
                 </div>
-                <img className="max-w-80 max-h-80" src="example.jpg" alt="Description" />
+                <img className="max-w-80 max-h-80" src="/example.jpg" alt="Description" />
             </div>
         </section>
 

@@ -37,6 +37,7 @@ const page = () => {
       <Overlap />   
    
       <NextGen /> 
+      <br /><br /><br />
     </div>
   )
 }

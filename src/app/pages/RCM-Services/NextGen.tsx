@@ -3,7 +3,7 @@ import Card from './Card'
 
 function NextGen() {
   return (
-    <div className='mt-96 p-24'>
+    <div className='my-24 p-24'>
       
       <div className="flex items-center justify-center">
         <div className="">
