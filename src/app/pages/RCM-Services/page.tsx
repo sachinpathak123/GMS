@@ -33,7 +33,8 @@ const page = () => {
    
   
     <Header />
-      <Overlap />      
+
+      <Overlap />   
    
       <NextGen /> 
     </div>

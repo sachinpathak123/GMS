@@ -16,37 +16,37 @@ function NextGen() {
         </div>
       </div>
       <div>
-        <img src="/yellow.jpeg" className="w-8 h-10" alt="Logo" />
+        <img src="/yellow.jpeg" className="w-8 h-10 mr-auto" alt="Logo" />
       </div>
       <div className="bg-orange-500 w-5 h-5 rounded-full ml-auto"></div>
       <div className="flex items-center justify-center">
         <div>
-          <Card imageSrc="/img1.jpeg" />
+        <Card imageSrc="/img1.png" />
         </div>
         <div>
-          <Card imageSrc="/img1.jpeg" />
+        <Card imageSrc="/img1.png" />
         </div>
         <div>
-          <Card imageSrc="/img1.jpeg" />
+        <Card imageSrc="/img1.png" />
         </div>
         <div>
-          <Card imageSrc="/img1.jpeg" />
+        <Card imageSrc="/img1.png" />
         </div>
         {/* <div className="bg-purple-600 w-8 h-8 rounded-full translate-x-32"></div> */}
         {/* <div className="w-4 h-4 rotate-180 bg-purple-600 rounded-full"></div> */}
       </div>
       <div className="flex items-center justify-center">
         <div>
-          <Card imageSrc="/img1.jpeg" />
+        <Card imageSrc="/img1.png" />
         </div>
         <div>
-          <Card imageSrc="/img1.jpeg" />
+        <Card imageSrc="/img1.png" />
         </div>
         <div>
-          <Card imageSrc="/img1.jpeg" />
+        <Card imageSrc="/img1.png" />
         </div>
         <div>
-          <Card imageSrc="/img1.jpeg" />
+        <Card imageSrc="/img1.png" />
         </div>
       </div>
       {/* <div>
@@ -56,6 +56,8 @@ function NextGen() {
           alt="Logo"
         />
     </div> */}
+      <div className="bg-purple-600 w-8 h-8 rounded-full translate-x-32"></div> 
+      <div className="w-4 h-4 rotate-180 bg-purple-600 rounded-full ml-auto"></div>
     </div>
   )
 }
