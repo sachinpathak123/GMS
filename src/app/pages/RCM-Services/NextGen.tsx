@@ -24,29 +24,29 @@ function NextGen() {
         <Card imageSrc="/img1.png" />
         </div>
         <div>
-        <Card imageSrc="/img1.png" />
+        <Card imageSrc="/img2.png" />
         </div>
         <div>
-        <Card imageSrc="/img1.png" />
+        <Card imageSrc="/img3.png" />
         </div>
         <div>
-        <Card imageSrc="/img1.png" />
+        <Card imageSrc="/img4.png" />
         </div>
         {/* <div className="bg-purple-600 w-8 h-8 rounded-full translate-x-32"></div> */}
         {/* <div className="w-4 h-4 rotate-180 bg-purple-600 rounded-full"></div> */}
       </div>
       <div className="flex items-center justify-center">
         <div>
-        <Card imageSrc="/img1.png" />
+        <Card imageSrc="/img5.png" />
         </div>
         <div>
-        <Card imageSrc="/img1.png" />
+        <Card imageSrc="/img6.png" />
         </div>
         <div>
-        <Card imageSrc="/img1.png" />
+        <Card imageSrc="/img7.png" />
         </div>
         <div>
-        <Card imageSrc="/img1.png" />
+        <Card imageSrc="/img8.png" />
         </div>
       </div>
       {/* <div>
