@@ -1,11 +1,11 @@
-//casecomponents/Card.tsx
+
 import React from 'react';
 
 const Card = ({ title, description, imageUrl }) => {
   return (
-    <div className="card">
+    <div className="cardd">
       <img src={imageUrl} alt={title} />
-      <h2>{title}</h2>
+      <h2 style={{ fontWeight: 'bold' }}>{title}</h2>
       <p>{description}</p>
     </div>
   );
