@@ -14,6 +14,7 @@ const config: Config = {
         "29xl": "48px",
         "4xl": "23px",
         "5Xl": "24px",
+        "6xl":"48px",
         "17xl": "36px",
         "18xl":"44px",
         inherit: "inherit",
@@ -56,6 +57,7 @@ const config: Config = {
         'lightGrey':'#F7F7F7',
         'leam-purp':'#F3EFFE',
         'terror':'rgb(248, 249, 255)',
+        'metrics':'rgba(185, 167, 255,0.12)',
       },
      
 
