@@ -11,7 +11,6 @@ const Independent = () => {
     "Physician",
     "Doctors",
     "Dentists",
-    "Independent Practioners",
     "Lab Technology",
   ];
 
@@ -24,7 +23,7 @@ const Independent = () => {
           setIsIntersecting(entry.isIntersecting);
         });
       },
-      { threshold: 0.7 } // You can adjust the threshold as needed
+      { threshold: 0.5 } // You can adjust the threshold as needed
     );
 
     if (progressRef.current) {
@@ -46,8 +45,7 @@ const Independent = () => {
         if (prevProgress < 100) {
           return (prevProgress += 0.1);
         }
-        clearInterval(id);
-        return 100;
+        return 0;
       });
     }, 50);
 
@@ -65,18 +63,22 @@ const Independent = () => {
 
   return (
     <>
-      <div className="overflow-x-hidden relative">
+      <div className="overflow-hidden relative my-32">
+        <div className={" absolute top-0 h-screen w-screen gap-5 flex flex-col items-center justify-start"}>
+            <h1 className=" text-5xl text-[#852fcb] font-medium"><span className=" font-extrabold">Whom</span> GetMax Serves</h1>
+            <p className=" w-1/2 text-base font-normal text-center">We help all types of healthcare providers, big and small. Our services are designed to fit your needs, making sure you succeed financially and run smoothly.</p>
+        </div>
         <div
           ref={progressRef}
-          className="absolute h-screen w-screen gap-3 bg-transparent flex flex-col items-center justify-center z-10"
+          className="absolute translate-y-16 -translate-x-3 h-screen w-screen gap-3 bg-transparent flex flex-col items-center justify-center z-10"
         >
           <h2 className="text-xl text-white font-font-awesome-5-free font-semibold">
             Our Customers are
           </h2>
-          <h1 className="text-5xl -translate-x-3 w-72 text-center text-white font-bold">
+          <h1 className="text-5xl w-72 text-center text-white font-bold">
             {dummy[Math.floor(currentProgress / 25)]}
           </h1>
-          <a href="/" className="inline-flex group items-center text-white">
+          {/* <a href="/" className="inline-flex group items-center text-white">
             See More
             <svg
               width="20px"
@@ -104,12 +106,12 @@ const Independent = () => {
                 ></path>{" "}
               </g>
             </svg>
-          </a>
+          </a> */}
         </div>
         <div className="relative h-screen bg-no-repeat bg-cover md:bg-center height-[35vh]">
           <svg
             width={radius * 2 + strokeWidth * 2 + 50}
-            className="flex items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -rotate-90 justify-center"
+            className="flex items-center absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 -rotate-90 justify-center"
             height={radius * 2 + strokeWidth * 2 + 50}
             xmlns="http://www.w3.org/2000/svg"
           >
