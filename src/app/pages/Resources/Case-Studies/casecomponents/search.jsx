@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../case.css';
+
 
 const SearchBox = () => {
     const [searchText, setSearchText] = useState('');
