@@ -13,47 +13,82 @@ const cardItems = [
         title: 'Transformational change in healthcare',
         description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
         imageUrl: '/Rectangle 1317.png', 
-        
+        userimg: '/Ellipse 162.png',
+        user: 'Joanna Mellick',
+        date: 'June 28,2018',
+        shares: '1K shares',
       },
     {
-      title: 'Healthcare studies',
+      title: 'Transformational change in healthcare',
       description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
       imageUrl: '/Rectangle 1318.png', 
+      userimg: '/Ellipse 162.png',
+        user: 'Joanna Mellick',
+        date: 'June 28,2018',
+        shares: '1K shares',
     },
     {
-        title: 'Healthcare leaders',
+        title: 'Transformational change in healthcare',
         description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
         imageUrl: '/Rectangle 1319.png', 
+        userimg: '/Ellipse 162.png',
+        user: 'Joanna Mellick',
+        date: 'June 28,2018',
+        shares: '1K shares',
       },
       {
         title: 'Transformational change in healthcare',
         description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
         imageUrl: '/Rectangle 1320.png', 
+        userimg: '/Ellipse 162.png',
+        user: 'Joanna Mellick',
+        date: 'June 28,2018',
+        shares: '1K shares',
       },
       {
         title: 'Transformational change in healthcare',
         description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
         imageUrl: '/Rectangle 1321.png', 
+        userimg: '/Ellipse 162.png',
+        user: 'Joanna Mellick',
+        date: 'June 28,2018',
+        shares: '1K shares',
       },
       {
         title: 'Transformational change in healthcare',
         description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
         imageUrl: '/Rectangle 1322.png', 
+        userimg: '/Ellipse 162.png',
+        user: 'Joanna Mellick',
+        date: 'June 28,2018',
+        shares: '1K shares',
       },
       {
         title: 'Transformational change in healthcare',
         description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
         imageUrl: '/Rectangle 1323.png', 
+        userimg: '/Ellipse 162.png',
+        user: 'Joanna Mellick',
+        date: 'June 28,2018',
+        shares: '1K shares',
       },
       {
         title: 'Transformational change in healthcare',
         description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
         imageUrl: '/Rectangle 1324.png', 
+        userimg: '/Ellipse 162.png',
+        user: 'Joanna Mellick',
+        date: 'June 28,2018',
+        shares: '1K shares',
       },
       {
         title: 'Transformational change in healthcare',
         description: 'Objectives Healthcare leaders around the world are calling for radical, transformational change of our health and care systems.',
         imageUrl: '/Rectangle 1325.png', 
+        userimg: '/Ellipse 162.png',
+        user: 'Joanna Mellick',
+        date: 'June 28,2018',
+        shares: '1K shares',
       },
      
   ];
@@ -121,13 +156,17 @@ const cardItems = [
               title={card.title}
               description={card.description}
               imageUrl={card.imageUrl}
+              userimg= {card.userimg}
+              user={card.user}
+              date={card.date}
+              shares={card.shares}
             />
           </div>
         ))}
       </div>
       <div className="load-more-container">
         <button className="load-more-button" onClick={loadMoreCards}>
-          Load more
+        <a href="#">Load more</a>
         </button>
       </div>
     </>
