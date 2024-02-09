@@ -54,7 +54,7 @@ const Independent = () => {
 
   useEffect(() => {
     if (window.innerWidth <= 1024) {
-      setRadius(100);
+      setRadius(150);
     }
   }, []);
 
@@ -65,17 +65,17 @@ const Independent = () => {
     <>
       <div className="overflow-hidden relative my-32">
         <div className={" absolute top-0 h-screen w-screen gap-5 flex flex-col items-center justify-start"}>
-            <h1 className=" text-5xl text-[#852fcb] font-medium"><span className=" font-extrabold">Whom</span> GetMax Serves</h1>
+            <h1 className="text-2xl md:text-5xl text-[#852fcb] font-medium"><span className=" font-extrabold">Whom</span> GetMax Serves</h1>
             <p className=" w-1/2 text-base font-normal text-center">We help all types of healthcare providers, big and small. Our services are designed to fit your needs, making sure you succeed financially and run smoothly.</p>
         </div>
         <div
           ref={progressRef}
-          className="absolute translate-y-16 -translate-x-3 h-screen w-screen gap-3 bg-transparent flex flex-col items-center justify-center z-10"
+          className="absolute translate-y-16 -translate-x-1 lg:-translate-x-3 h-screen w-screen gap-3 bg-transparent flex flex-col items-center justify-center z-10"
         >
-          <h2 className="text-xl text-white font-font-awesome-5-free font-semibold">
+          <h2 className="text-base lg:text-xl text-white font-font-awesome-5-free font-semibold">
             Our Customers are
           </h2>
-          <h1 className="text-5xl w-72 text-center text-white font-bold">
+          <h1 className="text-2xl lg:text-5xl w-72 text-center text-white font-bold">
             {dummy[Math.floor(currentProgress / 25)]}
           </h1>
           {/* <a href="/" className="inline-flex group items-center text-white">

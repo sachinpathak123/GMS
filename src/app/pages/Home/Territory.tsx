@@ -1,12 +1,12 @@
-import { useState } from 'react'
+import { useState } from "react";
 
- function Territory() {
-  const [active, setActive] = useState(null)
+function Territory() {
+  const [active, setActive] = useState(null);
 
-  const handleClick = (e:any) => {
-    setActive(e.target.id)
-    window.open(`/#${e.target.id}`, '_blank')
-  }
+  const handleClick = (e: any) => {
+    setActive(e.target.id);
+    window.open(`/#${e.target.id}`, "_blank");
+  };
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
@@ -17,154 +17,226 @@ import { useState } from 'react'
         <p className="text-xl mb-12">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-7 gap-1 py-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-1 py-8">
           <div
             id="Neurology"
             onClick={handleClick}
             className={`w-full h-full col-span-2 rounded-sm text-xl focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out ${
-              active === 'Neurology' ? 'bg-blue-500 text-white' : 'bg-gmm-purple text-custom-purple'
+              active === "Neurology"
+                ? "bg-blue-500 text-white"
+                : "bg-gmm-purple text-custom-purple"
             }`}
           >
-            <div className=' grid place-content-center p-2'> 
-            <img src="./BRAIN.png" alt="brain image" className='w-12 h-12' />
+            <div className=" grid place-content-center p-2">
+              <img src="./BRAIN.png" alt="brain image" className="w-12 h-12" />
             </div>
             Neurology
-            <p className='font-thin text-xs m-7'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quis repudiandae magni tempore libero quos saepe sit consectetur dolor recusandae.
+            <p className="font-thin text-xs m-7">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+              quis repudiandae magni tempore libero quos saepe sit consectetur
+              dolor recusandae.
               <br />
               <br />
-              <a href="#" className='font-thin text-xs hover:text-white duration-300'>READ MORE</a>
+              <a
+                href="#"
+                className="font-thin text-xs hover:text-white duration-300"
+              >
+                READ MORE
+              </a>
             </p>
           </div>
           <div
             id="Cardiology"
             onClick={handleClick}
             className={`w-full h-full lg:col-span-3 sm:col-span-1  md:col-span-1 rounded-sm text-xl focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out ${
-              active === 'Neurology' ? 'bg-blue-500 text-white' : 'bg-gmm-purple text-custom-purple'
+              active === "Neurology"
+                ? "bg-blue-500 text-white"
+                : "bg-gmm-purple text-custom-purple"
             }`}
           >
-            <div className=' grid place-content-center p-2'> 
-            <img src="./BRAIN.png" alt="brain image" className='w-12 h-12' />
+            <div className=" grid place-content-center p-2">
+              <img src="./BRAIN.png" alt="brain image" className="w-12 h-12" />
             </div>
             Cardiology
-            <p className='font-thin text-xs m-7'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quis repudiandae magni tempore libero quos saepe sit consectetur dolor recusandae.
+            <p className="font-thin text-xs m-7">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+              quis repudiandae magni tempore libero quos saepe sit consectetur
+              dolor recusandae.
               <br />
               <br />
-              <a href="#" className='font-thin text-xs hover:text-white duration-300'>READ MORE</a>
+              <a
+                href="#"
+                className="font-thin text-xs hover:text-white duration-300"
+              >
+                READ MORE
+              </a>
             </p>
           </div>
           <div
             id="Neurology"
             onClick={handleClick}
             className={`w-full h-full lg:col-span-2 sm:col-span-1  md:col-span-1 rounded-sm text-xl focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out ${
-              active === 'Neurology' ? 'bg-blue-500 text-white' : 'bg-custom-purple text-white'
+              active === "Neurology"
+                ? "bg-blue-500 text-white"
+                : "bg-custom-purple text-white"
             }`}
           >
-            <div className=' grid place-content-center p-2'> 
-            <img src="./mask.png" alt="brain image" className='w-10 h-10' />
+            <div className=" grid place-content-center p-2">
+              <img src="./mask.png" alt="brain image" className="w-10 h-10" />
             </div>
             Neurology
-            <p className='font-thin text-xs m-7'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quis repudiandae magni tempore libero quos saepe sit consectetur dolor recusandae.
+            <p className="font-thin text-xs m-7">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+              quis repudiandae magni tempore libero quos saepe sit consectetur
+              dolor recusandae.
               <br />
               <br />
-              <a href="#" className='font-thin text-xs hover:text-lp-purple duration-300'>READ MORE</a>
+              <a
+                href="#"
+                className="font-thin text-xs hover:text-lp-purple duration-300"
+              >
+                READ MORE
+              </a>
             </p>
           </div>
           <div
             id="Neurology"
             onClick={handleClick}
             className={`w-full h-full lg:col-span-4 sm:col-span-1  md:col-span-1 rounded-sm text-xl focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out ${
-              active === 'Neurology' ? 'bg-blue-500 text-white' : 'bg-gmm-purple text-custom-purple'
+              active === "Neurology"
+                ? "bg-blue-500 text-white"
+                : "bg-gmm-purple text-custom-purple"
             }`}
           >
-            <div className=' grid place-content-center p-2'> 
-            <img src="./BRAIN.png" alt="brain image" className='w-12 h-12' />
+            <div className=" grid place-content-center p-2">
+              <img src="./BRAIN.png" alt="brain image" className="w-12 h-12" />
             </div>
             Neurology
-            <p className='font-thin text-xs m-7'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quis repudiandae magni tempore libero quos saepe sit consectetur dolor recusandae.
+            <p className="font-thin text-xs m-7">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+              quis repudiandae magni tempore libero quos saepe sit consectetur
+              dolor recusandae.
               <br />
               <br />
-              <a href="#" className='font-thin text-xs hover:text-white duration-300'>READ MORE</a>
+              <a
+                href="#"
+                className="font-thin text-xs hover:text-white duration-300"
+              >
+                READ MORE
+              </a>
             </p>
           </div>
           <div
             id="Neurology"
             onClick={handleClick}
             className={`w-full h-full lg:col-span-3 sm:col-span-1  md:col-span-1 rounded-sm text-xl focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out ${
-              active === 'Neurology' ? 'bg-blue-500 text-white' : 'bg-gmm-purple text-custom-purple'
+              active === "Neurology"
+                ? "bg-blue-500 text-white"
+                : "bg-gmm-purple text-custom-purple"
             }`}
           >
-            <div className=' grid place-content-center p-2'> 
-            <img src="./BRAIN.png" alt="brain image" className='w-12 h-12' />
+            <div className=" grid place-content-center p-2">
+              <img src="./BRAIN.png" alt="brain image" className="w-12 h-12" />
             </div>
             Neurology
-            <p className='font-thin text-xs m-7'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quis repudiandae magni tempore libero quos saepe sit consectetur dolor recusandae.
+            <p className="font-thin text-xs m-7">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+              quis repudiandae magni tempore libero quos saepe sit consectetur
+              dolor recusandae.
               <br />
               <br />
-              <a href="#" className='font-thin text-xs hover:text-white duration-300'>READ MORE</a>
+              <a
+                href="#"
+                className="font-thin text-xs hover:text-white duration-300"
+              >
+                READ MORE
+              </a>
             </p>
           </div>
           <div
             id="Neurology"
             onClick={handleClick}
             className={`w-full h-full lg:col-span-3 sm:col-span-1  md:col-span-1 rounded-sm text-xl focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out ${
-              active === 'Neurology' ? 'bg-blue-500 text-white' : 'bg-gmm-purple text-custom-purple'
+              active === "Neurology"
+                ? "bg-blue-500 text-white"
+                : "bg-gmm-purple text-custom-purple"
             }`}
           >
-            <div className=' grid place-content-center p-2'> 
-            <img src="./BRAIN.png" alt="brain image" className='w-12 h-12' />
+            <div className=" grid place-content-center p-2">
+              <img src="./BRAIN.png" alt="brain image" className="w-12 h-12" />
             </div>
             Neurology
-            <p className='font-thin text-xs m-7'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quis repudiandae magni tempore libero quos saepe sit consectetur dolor recusandae.
+            <p className="font-thin text-xs m-7">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+              quis repudiandae magni tempore libero quos saepe sit consectetur
+              dolor recusandae.
               <br />
               <br />
-              <a href="#" className='font-thin text-xs hover:text-white duration-300'>READ MORE</a>
+              <a
+                href="#"
+                className="font-thin text-xs hover:text-white duration-300"
+              >
+                READ MORE
+              </a>
             </p>
           </div>
           <div
             id="Neurology"
             onClick={handleClick}
             className={`w-full h-full lg:col-span-2 sm:col-span-1  md:col-span-1 rounded-sm text-xl focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out ${
-              active === 'Neurology' ? 'bg-blue-500 text-white' : 'bg-custom-purple text-white'
+              active === "Neurology"
+                ? "bg-blue-500 text-white"
+                : "bg-custom-purple text-white"
             }`}
           >
-            <div className=' grid place-content-center p-2'> 
-            <img src="./mask.png" alt="brain image" className='w-12 h-12' />
+            <div className=" grid place-content-center p-2">
+              <img src="./mask.png" alt="brain image" className="w-12 h-12" />
             </div>
             Neurology
-            <p className='font-thin text-xs m-7'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quis repudiandae magni tempore libero quos saepe sit consectetur dolor recusandae.
+            <p className="font-thin text-xs m-7">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+              quis repudiandae magni tempore libero quos saepe sit consectetur
+              dolor recusandae.
               <br />
               <br />
-              <a href="#" className='font-thin text-xs hover:text-lp-purple duration-300'>READ MORE</a>
+              <a
+                href="#"
+                className="font-thin text-xs hover:text-lp-purple duration-300"
+              >
+                READ MORE
+              </a>
             </p>
           </div>
           <div
             id="Neurology"
             onClick={handleClick}
             className={`w-full h-full lg:col-span-2 sm:col-span-1  md:col-span-1 rounded-sm text-xl focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out ${
-              active === 'Neurology' ? 'bg-blue-500 text-white' : 'bg-gmm-purple text-custom-purple'
+              active === "Neurology"
+                ? "bg-blue-500 text-white"
+                : "bg-gmm-purple text-custom-purple"
             }`}
           >
-            <div className=' grid place-content-center p-2'> 
-            <img src="./BRAIN.png" alt="brain image" className='w-12 h-12' />
+            <div className=" grid place-content-center p-2">
+              <img src="./BRAIN.png" alt="brain image" className="w-12 h-12" />
             </div>
             Neurology
-            <p className='font-thin text-xs m-7'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quis repudiandae magni tempore libero quos saepe sit consectetur dolor recusandae.
+            <p className="font-thin text-xs m-7">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+              quis repudiandae magni tempore libero quos saepe sit consectetur
+              dolor recusandae.
               <br />
               <br />
-              <a href="#" className='font-thin text-xs hover:text-white duration-300'>READ MORE</a>
+              <a
+                href="#"
+                className="font-thin text-xs hover:text-white duration-300"
+              >
+                READ MORE
+              </a>
             </p>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 export default Territory;

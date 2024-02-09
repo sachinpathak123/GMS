@@ -5,10 +5,10 @@ import Qualities from './Qualities'
 const Outcome = () => {
   return (
     <div className='py-20'>
-        <h2 className='text-center  justify-items-center text-5xl font-bold'>We Provide Highest </h2>
+        <h2 className='text-center  justify-items-center text-2xl md:text-5xl font-bold'>We Provide Highest </h2>
         <br/>
-        <h2 className='text-center text-purple-700 text-[35px] font-semibold'>Quality Outcomes. </h2>
-       <div className='grid grid-cols-3 gap-y-20 gap-x-11 px-24 py-20  justify-items-center   '>
+        <h2 className='text-center text-purple-700 text-xl md:text-[35px] font-semibold'>Quality Outcomes. </h2>
+       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-11 px-10 md:px-24 py-20  justify-items-center   '>
            <Qualities imgsource= "slider.png" data="we help to transform performance of revenue cycle to deliver improved margins,increased cash flow" head="Help 100+  healthcare organisation"/>
            <Qualities imgsource= "patient.png" data="Our well trained RCM team and appropriate technology may aid in making billing and coding process seamless and efficient.Patient will be less worried." head="Improves Patient Experience"/>
            <Qualities imgsource= "reduceclaim.png" data="Implementing RCM process helps minimize errors in claims submission,leading to a decrease in claim denials and subsequent rework. " head="Reduces Claim Denials"/>

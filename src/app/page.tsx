@@ -22,14 +22,11 @@ const page = () => {
     whileInView={{opacity:1}}
     transition={{delay:0.2}}
    >
-        <Navbar />
-        <Division />
         <Home />
         <Homesection />
         <Outcome />
         <Territorycircles />
         <Independent/>
-        {/* <Final /> */}
           <Graph />
         <Software/>
         <Reviews />

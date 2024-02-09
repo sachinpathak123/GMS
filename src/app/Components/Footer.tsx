@@ -1,70 +1,56 @@
-'use client'
+"use client";
 import React from "react";
-import  { useState } from 'react';
-import Form from '../pages/Home/Form'
 
-interface props{ ClassName: string}
-const Contact = (props:props) => {
-  const [cLick, setcLick] = useState(false);
+interface props {
+  ClassName: string;
+}
+const Contact = (props: props) => {
 
   return (
     <div className={props.ClassName}>
-    <div className='bg-custom-purple w-3/4 flex justify-evenly h-48 flex-col items-center text-center rounded-md'>
-      <h4 className=' pt-5  text-white'>Get access to exclusive updates</h4>
-{/*      
-      <input
-        type="text"
-        placeholder='Enter your email address'
-        onClick={() => {
-          setcLick(!cLick);
-        }}
-        className='m-7 px-8 py-5 rounded-md cursor-pointer'
-      /> */}
-
-<form className=" w-1/2 m-5 ">
-            <div className="relative w-full">
-              <div className="absolute inset-y-0 start-0 flex items-center mx-3 pointer-events-none">
-                
-              </div>
-              <input
-                type="search"
-                id="default-search"
-                className="block w-full p-5 ps-10 text-sm text-gray-900 border border-gray-300 rounded bg-white placeholder:text-[#2E3E5C] focus:ring-blue-500 focus:border-blue-500"
-                placeholder="Enter your email address"
-                required
-              />
-              <button
-                type="submit"
-                className="text-white absolute end-2.5 bottom-2.5 bg-[#1e1e1e97] hover:bg-custom-purple hover:transition-colors transition-colors font-inter font-medium  text-xs md:text-sm px-2 md:px-10 py-3 md:py-2 "
-                style={{
-                  boxShadow: "0px 6px 20px 0px rgba(112,111,229,0.50)",
-                }}
-              >
-                Subscribe to the newsletter
-              </button>
-            </div>
-          </form>
-      <div>
-        {cLick ? <Form /> : null}
+      <div className="bg-custom-purple w-3/4 flex justify-evenly h-48 flex-col items-center text-center rounded-md">
+        <h4 className=" pt-5 text-xl  text-white">Get access to exclusive updates</h4>
+        <form className="w-full p-3 lg:p-0 lg:w-1/2 m-5 ">
+          <div className="relative w-full">
+            <div className="absolute inset-y-0 start-0 flex items-center mx-3 pointer-events-none"></div>
+            <input
+              type="search"
+              id="default-search"
+              className="block w-full p-5 ps-5 lg:ps-10 text-sm lg:text-xl text-gray-900 border border-gray-300 rounded bg-white placeholder:text-[#2E3E5C] focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Enter your email address"
+              required
+            />
+            <button
+              type="submit"
+              className="text-white absolute end-2.5 bottom-2.5 bg-[#1e1e1e97] hover:bg-custom-purple hover:transition-colors transition-colors font-inter font-medium  text-xs md:text-sm px-2 md:px-10 py-3 md:py-2 "
+              style={{
+                boxShadow: "0px 6px 20px 0px rgba(112,111,229,0.50)",
+              }}
+            >
+              Subscribe
+            </button>
+          </div>
+        </form>
       </div>
     </div>
-    </div>
   );
-}
+};
 
 export default function Footer() {
   return (
-<>
-  
-    <Contact ClassName={'flex flex-row justify-center  translate-y-1/3 z-50'}/>
-  <footer className="text-gray-600 bg-purple-200 -z-10  body-font">
+    <>
+      <Contact
+        ClassName={"flex flex-row justify-center  translate-y-1/3 z-50"}
+      />
+      <footer className="text-gray-600 bg-purple-200 -z-10  body-font">
         <div className="container  px-5 pt-44 pb-24 mx-auto flex justify-center items-center lg:items-start md:flex-row  md:flex-nowrap flex-wrap flex-col">
           <div className="w-1/3 gap-3 flex-shrink-0 flex items-center justify-center flex-col md:mx-0 p-100 text-center md:text-left">
             <a className="flex h-auto title-font font-medium items-center w-[150px]  md:justify-start justify-center text-gray-900">
               <img className="w-full h-full" src="/getmaxlogo.png" alt="" />
             </a>
             <div className="flex flex-row">
-              <svg className=" scale-75"
+              <svg
+                className=" scale-75"
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
                 height="48"
@@ -108,7 +94,8 @@ export default function Footer() {
                   </radialGradient>
                 </defs>
               </svg>
-              <svg className="scale-75"
+              <svg
+                className="scale-75"
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
                 height="48"
@@ -133,7 +120,8 @@ export default function Footer() {
                   </linearGradient>
                 </defs>
               </svg>
-              <svg className="scale-75"
+              <svg
+                className="scale-75"
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
                 height="48"
@@ -158,7 +146,8 @@ export default function Footer() {
                   </linearGradient>
                 </defs>
               </svg>
-              <svg className="scale-75"
+              <svg
+                className="scale-75"
                 xmlns="http://www.w3.org/2000/svg"
                 width="43"
                 height="40"
@@ -201,19 +190,29 @@ export default function Footer() {
               >
                 CATEGORIES
               </h2>
-              <nav className="list-none text-black text-lg not-italic font-normal leading-5;
-  font-['Lato] mb-10">
+              <nav
+                className="list-none text-black text-lg not-italic font-normal leading-5;
+  font-['Lato] mb-10"
+              >
                 <li>
-                  <a className="font-inter  text-gray-600 hover:text-gray-800">First Link</a>
+                  <a className="font-inter  text-gray-600 hover:text-gray-800">
+                    First Link
+                  </a>
                 </li>
                 <li>
-                  <a className="font-inter text-gray-600 hover:text-gray-800">Second Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">
+                    Second Link
+                  </a>
                 </li>
                 <li>
-                  <a className="font-inter text-gray-600 hover:text-gray-800">Third Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">
+                    Third Link
+                  </a>
                 </li>
                 <li>
-                  <a className="font-inter text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">
+                    Fourth Link
+                  </a>
                 </li>
               </nav>
             </div>
@@ -226,16 +225,24 @@ export default function Footer() {
               </h2>
               <nav className="list-none text-black text-lg not-italic font-normal leading-5; mb-10">
                 <li>
-                  <a className="font-inter text-gray-600 hover:text-gray-800">First Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">
+                    First Link
+                  </a>
                 </li>
                 <li>
-                  <a className="font-inter text-gray-600 hover:text-gray-800">Second Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">
+                    Second Link
+                  </a>
                 </li>
                 <li>
-                  <a className="font-inter text-gray-600 hover:text-gray-800">Third Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">
+                    Third Link
+                  </a>
                 </li>
                 <li>
-                  <a className="font-inter text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">
+                    Fourth Link
+                  </a>
                 </li>
               </nav>
             </div>
@@ -246,26 +253,35 @@ export default function Footer() {
               >
                 CATEGORIES
               </h2>
-              <nav className="list-none text-black text-lg not-italic font-normal leading-5;
-  font-family: Lato mb-10">
+              <nav
+                className="list-none text-black text-lg not-italic font-normal leading-5;
+  font-family: Lato mb-10"
+              >
                 <li>
-                  <a className="font-inter text-gray-600 hover:text-gray-800">First Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">
+                    First Link
+                  </a>
                 </li>
                 <li>
-                  <a className="font-inter text-gray-600 hover:text-gray-800">Second Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">
+                    Second Link
+                  </a>
                 </li>
                 <li>
-                  <a className="font-inter text-gray-600 hover:text-gray-800">Third Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">
+                    Third Link
+                  </a>
                 </li>
                 <li>
-                  <a className="font-inter text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  <a className="font-inter text-gray-600 hover:text-gray-800">
+                    Fourth Link
+                  </a>
                 </li>
               </nav>
             </div>
           </div>
         </div>
       </footer>
-      </>
-    
+    </>
   );
 }

@@ -5,13 +5,14 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-    <div className='overflow-hidden max-w-fit h-screen flex items-center justify-center text-custom-purple font-sans pt-44 '>
-        <div className='z-10  w-screen flex-col text-center items-center justify-items-center  '>
-         <div className='font-semibold text-[60px] text-center w-screen text-transparent bg-clip-text bg-gradient-to-r from-[#8C17E8] to-[#3C058C] tracking-normal leading-[60px] '>
+    <div className='overflow-hidden max-w-fit bg-white h-screen flex items-center justify-center text-custom-purple font-sans pt-44'>
+      <img className=' h-full w-full bg-white object-scale-down absolute top-0' src={'/Home_bg.png'} alt='Balls' />
+        <div className='z-10 w-screen flex-col text-center items-center justify-items-center  '>
+         <div className='font-semibold text-2xl md:text-5xl lg:text-7xl text-center w-screen text-transparent bg-clip-text bg-gradient-to-r from-[#8C17E8] to-[#3C058C] tracking-normal leading-[60px] '>
             <span>Dive into the heart of healthcare</span>
             <br/>
             <span>prosperity with GetMax</span>
-           <div className="text-base font-semibold text-center py-8 text-[#1E1E1E]">
+           <div className=" text-sm md:text-base font-semibold text-center py-8 text-[#1E1E1E]">
            where RCM mastery meets the pulse of financial wellness – rewriting the <br />narrative of success for every healthcare institution
            </div>
          </div>
@@ -25,7 +26,7 @@ const Home = () => {
          </div>
        </div>
       
-       <div className="w-screen h-[721px] z-0 overflow-hidden">
+       {/* <div className="w-screen h-[721px] z-0 overflow-hidden">
         <img
           className="absolute top-[200px] left-[-40px] w-[94.7px] h-[90.2px] object-contain "
           alt=""
@@ -56,7 +57,7 @@ const Home = () => {
           alt=""
           src="/halfyellowcircle.png"
       />
-       </div>
+       </div> */}
 
       </div>
     </>

@@ -5,11 +5,11 @@ import { motion } from 'framer-motion';
 const Homesection = () => {
   return (
     <div className='flex items-center justify-center text-left'>
-      <div className='w-[70vw] h-[50vh] bg-leam-purp rounded-md '>
+      <div className='w-[70vw] bg-leam-purp rounded-md '>
         <div className='grid grid-cols-6 gap-8 text-gm-purple'>
-          <div className='col-span-6 py-24 px-16'>
-            <h2 className='font-inter font-[50] text-3xl w-full'>Unlock the Potential of Your Revenue Cycle with GetMax</h2>
-            <span className='font-inter font-medium text-3xl text-custom-purple w-full'>Improve your healthcare business by letting
+          <div className='col-span-6 py-10 md:py-24 px-5 md:px-16'>
+            <h2 className='font-inter font-[50] text-base md:text-3xl w-full'>Unlock the Potential of Your Revenue Cycle with GetMax</h2>
+            <span className='font-inter font-medium text-base md:text-3xl text-custom-purple w-full'>Improve your healthcare business by letting
              us simplify your revenue cycle, freeing up clinicians to focus on great patient care. With over  
              <span className='font-semibold'>
               &nbsp; 40% cost savings&nbsp;
