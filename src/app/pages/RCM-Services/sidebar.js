@@ -66,10 +66,10 @@ return (
             </div>
             <div className="flex justify-around">
                 <div className="flex bg-gray-100 items-center shadow-xl rounded-xl">
-                    <img src="business.png" alt="desc" />
+                    <img src="/business.png" alt="desc" />
                 </div>
                 <div className="space-y-14 w-1/2">
-                    <p className="text-left">
+                    <p className="text-left text-wrap px-24">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
                         urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.
                         Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
@@ -78,7 +78,7 @@ return (
                         vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem
                         orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra.
                         Fusce vel tempor elit.</p>
-                    <p className="bg-gray-100 p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
+                    <p className="bg-[#F6F1FF] p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
                 </div>
             </div>
         </section>
@@ -89,7 +89,7 @@ return (
             </div>
             <div className="flex justify-around">
                 <div className="space-y-14 w-1/2">
-                    <p className="text-left">
+                    <p className="text-left text-wrap px-24">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
                         urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.
                         Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
@@ -98,10 +98,10 @@ return (
                         vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem
                         orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra.
                         Fusce vel tempor elit.</p>
-                    <p className="bg-gray-100 p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
+                    <p className="bg-[#F6F1FF] p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="flex bg-gray-100 min-w-1/4 items-center shadow-xl rounded-xl">
-                    <img src="business.png" alt="desc" />
+                    <img src="/business.png" alt="desc" />
                 </div>
             </div>
         </section>
@@ -113,10 +113,10 @@ return (
             </div>
             <div className="flex justify-around">
                 <div className="flex bg-gray-100 min-w-1/4 items-center shadow-xl rounded-xl">
-                    <img src="business.png" alt="desc" />
+                    <img src="/business.png" alt="desc" />
                 </div>
                 <div className="space-y-14 w-1/2">
-                    <p className="text-left">
+                <p className="text-left text-wrap px-24">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
                         urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.
                         Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
@@ -125,7 +125,7 @@ return (
                         vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem
                         orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra.
                         Fusce vel tempor elit.</p>
-                    <p className="bg-gray-100 p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
+                    <p className="bg-[#F6F1FF] p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
                 </div>
             </div>
         </section>
@@ -136,7 +136,7 @@ return (
             </div>
             <div className="flex justify-around">
                 <div className="space-y-14 w-1/2">
-                    <p className="text-left">
+                <p className="text-left text-wrap px-24">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
                         urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.
                         Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
@@ -145,10 +145,10 @@ return (
                         vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem
                         orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra.
                         Fusce vel tempor elit.</p>
-                    <p className="bg-gray-100 p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
+                    <p className="bg-[#F6F1FF] p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="flex bg-gray-100 min-w-1/4 items-center shadow-xl rounded-xl">
-                    <img src="business.png" alt="desc" />
+                    <img src="/business.png" alt="desc" />
                 </div>
             </div>
         </section>
@@ -160,10 +160,10 @@ return (
             </div>
             <div className="flex justify-around">
                 <div className="flex bg-gray-100 min-w-1/4 items-center shadow-xl rounded-xl">
-                    <img src="business.png" alt="desc" />
+                    <img src="/business.png" alt="desc" />
                 </div>
                 <div className="space-y-14 w-1/2">
-                    <p className="text-left">
+                <p className="text-left text-wrap px-24">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
                         urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.
                         Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
@@ -172,7 +172,7 @@ return (
                         vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem
                         orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra.
                         Fusce vel tempor elit.</p>
-                    <p className="bg-gray-100 p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
+                    <p className="bg-[#F6F1FF] p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
                 </div>
             </div>
         </section>
@@ -183,7 +183,7 @@ return (
             </div>
             <div className="flex justify-around">
                 <div className="space-y-14 w-1/2">
-                    <p className="text-left">
+                <p className="text-left text-wrap px-24">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
                         urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.
                         Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
@@ -192,10 +192,10 @@ return (
                         vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem
                         orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra.
                         Fusce vel tempor elit.</p>
-                    <p className="bg-gray-100 p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
+                    <p className="bg-[#F6F1FF] p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="flex bg-gray-100 min-w-1/4 items-center shadow-xl rounded-xl">
-                    <img src="business.png" alt="desc" />
+                    <img src="/business.png" alt="desc" />
                 </div>
             </div>
         </section>
@@ -207,10 +207,10 @@ return (
             </div>
             <div className="flex justify-around">
                 <div className="flex bg-gray-100 min-w-1/4 items-center shadow-xl rounded-xl">
-                    <img src="business.png" alt="desc" />
+                    <img src="/business.png" alt="desc" />
                 </div>
                 <div className="space-y-14 w-1/2">
-                    <p className="text-left">
+                <p className="text-left text-wrap px-24">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
                         urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.
                         Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
@@ -219,7 +219,7 @@ return (
                         vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem
                         orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra.
                         Fusce vel tempor elit.</p>
-                    <p className="bg-gray-100 p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
+                    <p className="bg-[#F6F1FF] p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
                 </div>
             </div>
         </section>
@@ -230,7 +230,7 @@ return (
             </div>
             <div className="flex justify-around">
                 <div className="space-y-14 w-1/2">
-                    <p className="text-left">
+                <p className="text-left text-wrap px-24">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
                         urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.
                         Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
@@ -239,10 +239,10 @@ return (
                         vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem
                         orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra.
                         Fusce vel tempor elit.</p>
-                    <p className="bg-gray-100 p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
+                    <p className="bg-[#F6F1FF] p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="flex bg-gray-100 min-w-1/4 items-center shadow-xl rounded-xl">
-                    <img src="business.png" alt="desc" />
+                    <img src="/business.png" alt="desc" />
                 </div>
             </div>
         </section>
@@ -254,10 +254,10 @@ return (
             </div>
             <div className="flex justify-around">
                 <div className="flex bg-gray-100 min-w-1/4 items-center shadow-xl rounded-xl">
-                    <img src="business.png" alt="desc" />
+                    <img src="/business.png" alt="desc" />
                 </div>
                 <div className="space-y-14 w-1/2">
-                    <p className="text-left">
+                <p className="text-left text-wrap px-24">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
                         urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.
                         Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
@@ -266,7 +266,7 @@ return (
                         vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem
                         orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra.
                         Fusce vel tempor elit.</p>
-                    <p className="bg-gray-100 p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
+                    <p className="bg-[#F6F1FF] p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
                 </div>
             </div>
         </section>
@@ -277,7 +277,7 @@ return (
             </div>
             <div className="flex justify-around">
                 <div className="space-y-14 w-1/2">
-                    <p className="text-left">
+                <p className="text-left text-wrap px-24">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
                         urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.
                         Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
@@ -286,10 +286,10 @@ return (
                         vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem
                         orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra.
                         Fusce vel tempor elit.</p>
-                    <p className="bg-gray-100 p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
+                    <p className="bg-[#F6F1FF] p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="flex bg-gray-100 min-w-1/4 items-center shadow-xl rounded-xl">
-                    <img src="business.png" alt="desc" />
+                    <img src="/business.png" alt="desc" />
                 </div>
             </div>
         </section>
@@ -301,10 +301,10 @@ return (
             </div>
             <div className="flex justify-around">
                 <div className="flex bg-gray-100 min-w-1/4 items-center shadow-xl rounded-xl">
-                    <img src="business.png" alt="desc" />
+                    <img src="/business.png" alt="desc" />
                 </div>
                 <div className="space-y-14 w-1/2">
-                    <p className="text-left">
+                <p className="text-left text-wrap px-24">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
                         urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.
                         Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
@@ -313,7 +313,7 @@ return (
                         vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem
                         orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra.
                         Fusce vel tempor elit.</p>
-                    <p className="bg-gray-100 p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
+                    <p className="bg-[#F6F1FF] p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
                 </div>
             </div>
         </section>
@@ -324,7 +324,7 @@ return (
             </div>
             <div className="flex justify-around">
                 <div className="space-y-14 w-1/2">
-                    <p className="text-left">
+                <p className="text-left text-wrap px-24">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
                         urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.
                         Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
@@ -333,10 +333,10 @@ return (
                         vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id. Praesent lorem
                         orci, mattis non efficitur id, ultricies vel nibh. Sed volutpat lacus vitae gravida viverra.
                         Fusce vel tempor elit.</p>
-                    <p className="bg-gray-100 p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
+                    <p className="bg-[#F6F1FF] p-4 mx-32 shadow-xl rounded-xl">lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="flex bg-gray-100 min-w-1/4 items-center shadow-xl rounded-xl">
-                    <img src="business.png" alt="desc" />
+                    <img src="/business.png" alt="desc" />
                 </div>
             </div>
         </section>
