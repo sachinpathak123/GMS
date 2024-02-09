@@ -9,7 +9,7 @@ const Contact = (props: props) => {
   return (
     <div className={props.ClassName}>
       <div className="bg-custom-purple w-3/4 flex justify-evenly h-48 flex-col items-center text-center rounded-md">
-        <h4 className=" pt-5 text-xl  text-white">Get access to exclusive updates</h4>
+        <h4 className=" pt-5  text-white">Get access to exclusive updates</h4>
         <form className="w-full p-3 lg:p-0 lg:w-1/2 m-5 ">
           <div className="relative w-full">
             <div className="absolute inset-y-0 start-0 flex items-center mx-3 pointer-events-none"></div>
