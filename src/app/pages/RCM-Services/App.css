@@ -44,3 +44,205 @@
 
 
 
+/*Praseeda Code for Mainpage.tsx
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  flex-direction: column;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.top-left-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -20px; 
+  margin-left: -20px;
+}
+
+.top-left {
+  border-width: 0 15vw 18vh 0;
+  border-color: transparent rgb(141, 0, 249) transparent transparent;
+  transform: scaleX(-1) rotate(-5deg);
+  z-index: 3;
+  top: 0; 
+  left: 0;
+  margin-bottom: auto;
+  margin-top: -130px; 
+  margin-left: -10px;
+}
+.dark-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 14vw 18vh 0;
+  border-color: transparent rgba(63, 2, 110, 0.883) transparent transparent;
+  transform: scaleX(-1) rotate(0deg);
+  z-index: 2;
+  top: 0; 
+  left: 0;
+  margin-bottom: auto;
+  
+}
+
+.bottom-right-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: auto; 
+}
+
+.bottom-right {
+  border-width: 13vw 0 0 15vh;
+  border-color: transparent transparent transparent rgb(141, 0, 249);
+  transform: rotate(-90deg);
+ 
+
+}
+
+.triangle.bottom-right {
+  border-width: 13vw 0 0 15vh;
+  border-color: transparent transparent transparent rgb(141, 0, 249);
+  transform: rotate(-90deg);
+  z-index: 1;
+}
+
+.bottom-right-rectangle {
+  width: 60px;
+  height: 165px;
+  background-color: rgb(63, 2, 110);
+  transform: rotate(-99deg);
+  z-index: 0;
+  margin-top: -165px; 
+}
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  text-align: center; 
+}
+
+.image {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+
+img {
+  max-width: 80%;
+  height: auto;
+  margin-top: 80px;
+}
+
+.b {
+  background-color: rgb(141, 0, 249);
+  font-size: 15px;
+  text-align: center;
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 10px 15px;
+  margin-top: 30px;
+  border-color: rgb(141, 0, 249);
+}
+
+.g {
+  font-size: 40px;
+}
+
+.pr {
+  font-size: 40px;
+  color: blueviolet;
+  font-weight: 500;
+}
+
+.built {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.teams {
+  color: blueviolet;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row; 
+  }
+
+  .content {
+    flex: 1;
+    margin-left: 5px;
+    margin-bottom: 0;
+    margin-top: 100;
+    text-align: left; 
+  }
+
+  .image {
+    flex: 1;
+    padding: 20px;
+    text-align: center; 
+  }
+
+  .b {
+    font-size: 18px; 
+  }
+
+  .g {
+    font-size: 40px;
+  }
+
+  .pr {
+    font-size: 40px;
+  }
+
+  .built {
+    font-size: 45px;
+  }
+
+  .top-left{
+    border-width: 0 15vw 18vh 0;
+    margin-top: -130px; 
+    margin-left: -10px;
+  }
+
+  .dark-triangle {
+    width: 0;
+    height: 0;
+    border-width: 0 14vw 18vh 0;
+    
+  }
+
+  .triangle.bottom-right {
+    border-width: 13vw 0 0 15vh;
+    width: 0px;
+    height: 0px;
+    
+  }
+  
+  .bottom-right-rectangle {
+    width: 60px;
+    height: 165px;
+  }
+}*/
+
+
+
