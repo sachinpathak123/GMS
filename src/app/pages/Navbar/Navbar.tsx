@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <>
       <motion.div
-        className="flex justify-evenly gap-1 md:gap-5 items-center font-sans w-full h-20 md:px-4 text-light-pUrple fixed z-30 bg-lightGrey nav"
+        className="flex justify-evenly gap-1 md:gap-5 items-center font-sans w-full h-16 md:px-4 text-light-pUrple fixed z-30 bg-lightGrey nav"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
@@ -56,7 +56,7 @@ const Navbar = () => {
               <img
                 src="/logo1.png"
                 alt="There was a image"
-                className="w-24 h-16"
+                className="w-20 h-14"
               />
             </a>
           </h1>
@@ -165,7 +165,7 @@ const Navbar = () => {
           onClick={() => setNav(!nav)}
           className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
         >
-          {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+          {nav ? <FaTimes size={25} /> : <FaBars size={25} />}
         </div>
 
         {nav && (

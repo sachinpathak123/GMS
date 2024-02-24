@@ -7,7 +7,7 @@ const Division = () => {
     initial={{opacity:0}}
     animate={{opacity:1}}
     transition={{delay:0.4}}>
-       <div className="w-screen h-px bg-black absolute top-20" />
+       <div className="w-screen h-px bg-black absolute top-16" />
     </motion.div>
   )
 }

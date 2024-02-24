@@ -47,7 +47,7 @@ const Independent = () => {
         }
         return 0;
       });
-    }, 50);
+    }, 20);
 
     return () => clearInterval(id);
   }, [isIntersecting]);
