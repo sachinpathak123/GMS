@@ -38,7 +38,7 @@ function principle() {
   };
 
   return (
-    <div style={hexagonContainerStyle}>
+    <div style={hexagonContainerStyle} className='max-sm:hidden'>
       <div>
         <p className="text-purple-700 font-bold ml-[-30px] mt-12 text-2xl">The Four Principles of Design Thinking</p>
         <div className="bg-black w-28 h-1 ml-[-30px] mt-2" />

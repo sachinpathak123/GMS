@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-import './App.css';
+{/*import './App.css';*/}
 import Overlap from './Hexagon';
 import Header from './Header';
 import Footer from './NextGen';
@@ -28,7 +28,7 @@ const page = () => {
     <How />
 
     
-    <Principle />
+    <Principle/>
     
    
   
